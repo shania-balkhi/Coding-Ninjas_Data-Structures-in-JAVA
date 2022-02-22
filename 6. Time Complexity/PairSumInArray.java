@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class Solution {	
 	public static int pairSum(int[] arr, int num) {
         Arrays.sort(arr);
-		int numOfPairs = 0;
+	int numOfPairs = 0;
         int si = 0, ei = arr.length - 1;
         while(si < ei){ 
             if (arr[si] + arr[ei] < num){
