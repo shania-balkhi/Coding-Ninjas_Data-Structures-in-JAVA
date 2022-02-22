@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class Solution {	
 	public static int tripletSum(int[] arr, int num) {
-		Arrays.sort(arr);
+	Arrays.sort(arr);
         int numOfPairsOfTargetSum = 0;   
         int numOfTripletsOfActualSum = 0;
         for(int k = 0; k < arr.length - 2; ++k){
