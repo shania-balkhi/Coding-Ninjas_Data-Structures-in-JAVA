@@ -1,0 +1,27 @@
+1. ●▶ OOPS refers to using objects in programming
+   ●▶ A class is a user defined blueprint from which objects are created.
+   ●▶ Object is an instance of a class
+2. ●▶ Student s1=new Student();
+3. ●▶ 5 Rohit
+4. ●▶ Line 2
+5. ●▶ Student@232204a1
+6. ●▶ Public
+   ●▶ Default
+7. ●▶ No
+8. ●▶ Error
+9. ●▶ 10
+10.●▶ 10 Naman
+11.●▶ a=0 b=10
+12.●▶this
+13.●▶Constructor two Dharmesh 26
+14.●▶constrcutor two constructor one
+15.●▶Final variable can be initialized only once and cannot be modified further.
+   ●▶We can initialize final variable inside constructor.
+   ●▶Final keyword is a non-access modifier.
+16.●▶Error
+17.●▶2018
+18.●▶No error
+19.●▶50
+20.●▶Line 2
+   ●▶Line 3
+   ●▶Line 4
