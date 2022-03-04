@@ -57,7 +57,7 @@ public class PQ {
     2. if not, then store minimumElement for it to be returned at the end
     3. replace that minimumElement with the last lastElement of the PQ using ArrayList.set()
     4. remove the last element of the PQ now that it has been re-placed to the top of PQ where initially minimumElement was.
-    5. perform the up-heapify process as follows
+    5. perform the down-heapify process as follows
     6. iterate over loop till leftChildExists i.e, leftChildIndex < size()
     7. find the most minimumElement's index amongst parentElement, leftChildElement & rightChildElement.
     8. if most minimumIndex == parentIndex, means parentElement was the most minimumELement amongst the 3. so break; and come out of the loop as there's no need to traverse further.
