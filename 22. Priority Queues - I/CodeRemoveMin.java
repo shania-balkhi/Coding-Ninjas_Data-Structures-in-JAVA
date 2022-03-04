@@ -1,3 +1,12 @@
+/* formula - 
+1. if parentIndex = i, 
+   then, leftChildIndex = 2*i + 1;
+   and, rightChildIndex = 2*i + 2;
+2. if childIndex = i,
+   then, parentIndex = (i - 1)/2;
+*/
+
+//code
 import java.util.ArrayList;
 
 public class PQ {
