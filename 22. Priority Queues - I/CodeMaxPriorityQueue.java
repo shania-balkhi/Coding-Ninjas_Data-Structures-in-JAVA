@@ -83,7 +83,7 @@ public class PQ {
             return Integer.MIN_VALUE;
         }
         
-		int removedElement = maxHeap.get(0); //this element will be returned by this method
+	int removedElement = maxHeap.get(0); //this element will be returned by this method
         maxHeap.set(0, maxHeap.get(maxHeap.size() - 1));
         maxHeap.remove(maxHeap.size() - 1);
         
