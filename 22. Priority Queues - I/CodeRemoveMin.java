@@ -80,7 +80,7 @@ public class PQ {
         int leftChildIndex = (2 * parentIndex) + 1;
         int rightChildIndex = (2 * parentIndex) + 2;
 
-        //up-heapify
+        //down-heapify
         while(leftChildIndex < size()){
             int minIndex = parentIndex; //Assume
             if(heap.get(leftChildIndex) < heap.get(minIndex)){ //be it minIndex or parentIndex, both are same here
