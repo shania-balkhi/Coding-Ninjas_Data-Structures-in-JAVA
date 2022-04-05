@@ -26,7 +26,7 @@ Sample Output 1:
 /*algo-
 1. put the input array elements into the hashmap (line 52 to 62)
 2. initialise a count variable(line 64) and iterate over the range of arraySize. (line 65)
-3. in order for 'count' to compute, the frequency of the ith arrayElement should be > 0 in the HashMap. so that's always the 
+3. for 'count' to compute, the frequency of the ith arrayElement should be > 0 in the HashMap. so that's always the 
    first thing we check in any of the conditional statements.
 4. if the ith element is 0 : since 0 does not have any +ve or -ve counterparts, we simply count the pairCount of 0 using the 
    formula : pairCount = (frequencyOfZero * (freuencyOfZero - 1)) / 2;  
