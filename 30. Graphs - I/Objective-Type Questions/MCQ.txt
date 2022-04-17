@@ -1,1 +1,28 @@
+Q1. Which of the following is true?
 
+Options
+This problem has only one correct answer
+
+(a) All graphs are trees.
+(b) All trees are graphs. 
+(c) All graphs are cyclic.
+(d) The number of edges in a graph is always more than number of vertices.
+
+Ans. (b) All trees are graphs. ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q2. Maximum Number of Edges - 
+What is the maximum number of edges in an undirected graph of 'V' Vertices?
+
+Options
+This problem has only one correct answer
+
+(a) V*(V-1)/2 
+(b) V
+(c) V^2
+(d) None of these
+
+Ans. (a) V*(V-1)/2 ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
