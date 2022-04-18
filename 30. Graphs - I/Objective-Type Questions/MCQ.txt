@@ -26,3 +26,23 @@ This problem has only one correct answer
 Ans. (a) V*(V-1)/2 ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q3. Graph Problem-1
+
+A graph of 5 Vertices a,b,c,d,e is drawn and below are the adjacent vertices of each graph? Check if the graph is connected or not?
+Vertex       Adjacent Vertices
+   a                 b,c
+   b                 a,e
+   c                  a
+   d                  e
+   e                  a
+   
+Options
+This problem has only one correct answer
+
+(a) Connected 
+(b) Not Connected
+
+Ans. (a) Connected ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
