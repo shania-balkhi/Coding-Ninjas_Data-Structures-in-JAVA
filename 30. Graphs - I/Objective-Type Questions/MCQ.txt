@@ -46,3 +46,18 @@ This problem has only one correct answer
 Ans. (a) Connected ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q4. Graph Problem-2
+
+A graph of 5 Vertices a,b,c,d,e is drawn and below are the adjacent vertices of each graph?Find the degree of vertex e?
+Vertex       Adjacent Vertices
+   a                 b,c
+   b                 a,e
+   c                 a,e
+   d                  e
+   e                 b,c,d
+  
+  
+Ans. 3 ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
