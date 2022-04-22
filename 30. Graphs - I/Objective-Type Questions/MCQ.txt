@@ -98,4 +98,21 @@ This problem has only one correct answer
 
 Ans. (b) 2 ✓
 
-/*------------------------------------------------------------------------------------------------------------------------------------
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q7. Correct Statement
+
+Which of the following statement is true?
+A: The number of odd degree vertices in a graph is even.
+B: Sum of all degrees in a graph is even.
+
+Options
+This problem has only one correct answer
+(a) A
+(b) B
+(c) Both A and B 
+(d) Neither A nor B
+
+Ans. (c) Both A and B ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
