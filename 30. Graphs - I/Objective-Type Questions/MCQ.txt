@@ -116,3 +116,19 @@ This problem has only one correct answer
 Ans. (c) Both A and B ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q8. Time complexity
+
+What is the time complexity of finding an edge between two vertices using adjacency matrix?
+n is number of vertices and E is number of edges.
+
+Options
+This problem has only one correct answer
+(a) O(n)
+(b) O(1) 
+(c) O(E)
+(d) O(n+E)
+
+Ans. (b) O(1) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
