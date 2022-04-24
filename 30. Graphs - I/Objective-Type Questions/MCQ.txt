@@ -132,3 +132,21 @@ This problem has only one correct answer
 Ans. (b) O(1) ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q9. Space complexity
+
+What is the space complexity used in case of :
+i)  Edge List                     a) O(n+E)
+ii) Adjacency List                b) O(n^2)
+iii) Adjacency Matrix             c) O(n+2E)
+
+Options
+This problem has only one correct answer
+(a) i) - a), ii)- b) , iii)-c)
+(b) i) - b), ii)- c) , iii)-a)
+(c) i) - a), ii)- c) , iii)-b) 
+(d) i) - b), ii)- a) , iii)-c)
+
+Ans. (c) i) - a), ii)- c) , iii)-b) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
