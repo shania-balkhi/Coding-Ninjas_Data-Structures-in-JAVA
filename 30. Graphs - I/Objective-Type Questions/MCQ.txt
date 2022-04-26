@@ -149,4 +149,20 @@ This problem has only one correct answer
 
 Ans. (c) i) - a), ii)- c) , iii)-b) ✓
 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+Q10. Traversal problem-1
+
+Depth First Search is equivalent to which of the traversal in the Binary Trees?
+
+Options
+This problem has only one correct answer
+(a) Pre-Order Traversal 
+(b) Post-Order Traversal
+(c) Level-Order Traversal
+(d) In-Order Traversal
+
+Ans. (a) Pre-Order Traversal ✓
+
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
