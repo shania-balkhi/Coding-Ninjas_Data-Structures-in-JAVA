@@ -166,3 +166,33 @@ Ans. (a) Pre-Order Traversal ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+Q11. Traversal problem-2
+
+Given the adjacency matrix.
+    a  b  e  f  g  h 
+a   0  1  1  1  0  0
+b   1  0  1  1  0  1  
+e   1  1  0  0  1  0
+f   1  1  0  0  1  1  
+g   0  0  1  1  0  1 
+h   0  1  0  1  1  0
+
+Among the following sequences:
+
+(I) a b e g h f 
+(II) a b f e h g
+(III) a b f h g e 
+(IV) a f g h b e  
+Which are depth first traversals of the above graph?
+
+Options
+This problem has only one correct answer
+(a) I, II and IV
+(b) I, III and IV 
+(c) I and IV
+(d) II, III and IV
+
+Ans. (b) I, III and IV ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
