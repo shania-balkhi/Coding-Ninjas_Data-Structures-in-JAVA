@@ -218,3 +218,18 @@ This problem has only one correct answer
 Ans. (a) a b e f h g ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q.13 Traversal problem-4
+
+Which of the following data structure is used in breadth first traversal?
+
+Options
+This problem has only one correct answer
+(a) Stack
+(b) Queue 
+(c) Linked List
+(d) Tree
+
+Ans. (b) Queue ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
