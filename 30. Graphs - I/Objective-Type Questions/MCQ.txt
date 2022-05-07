@@ -219,7 +219,7 @@ Ans. (a) a b e f h g ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-Q.13 Traversal problem-4
+Q13. Traversal problem-4
 
 Which of the following data structure is used in breadth first traversal?
 
@@ -233,3 +233,19 @@ This problem has only one correct answer
 Ans. (b) Queue ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q14. Time complexity
+
+What is the time complexity of DFS and BFS using
+a) adjacency matrix          i) O(V^2)
+b) adjacency list           ii) O(V+2*E)
+
+Options
+This problem has only one correct answer
+(a) i) - a) and ii) - b) 
+(b) i) - b) and ii) - a)
+
+Ans. (a) i) - a) and ii) - b) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
