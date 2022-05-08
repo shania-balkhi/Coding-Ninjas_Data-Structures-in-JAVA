@@ -249,3 +249,16 @@ Ans. (a) i) - a) and ii) - b) ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+Q15. Shortest Path
+
+Which traversal is used to find the shortest path between two vertices?
+
+Options
+This problem has only one correct answer
+(a) Breadth First Traversal 
+(b) Depth First Traversal
+(c) Both
+
+Ans. (a) Breadth First Traversal ✓
+
+/*------------------------------------------------------------------------------END----------------------------------------------------------------------------------*/
