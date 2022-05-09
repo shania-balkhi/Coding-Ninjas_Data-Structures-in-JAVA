@@ -9,13 +9,27 @@ This problem may have one or more correct answers
 (c) Object of same class have different properties.
 (d) Object is an instance of a class. 
 
-Ans. (a) OOPS refers to using objects in programming
-     (b) A class is a user defined blueprint from which objects are created.
-     (d) Object is an instance of a class
+Ans. (a) OOPS refers to using objects in programming ✓
+     (b) A class is a user defined blueprint from which objects are created. ✓
+     (d) Object is an instance of a class ✓
      
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-2. ●▶ Student s1=new Student();
+Q2. Object Creation
+
+Which of the following method can be used to create an object of student class?
+
+Options
+This problem has only one correct answer
+(a) Student s1=new Student;
+(b) Student s1;
+(c) Student s1=new Student(); 
+(d) Student s1=" ";
+
+Ans. (c) Student s1=new Student(); ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 3. ●▶ 5 Rohit
 4. ●▶ Line 2
 5. ●▶ Student@232204a1
