@@ -1,6 +1,20 @@
-1. ●▶ OOPS refers to using objects in programming
-   ●▶ A class is a user defined blueprint from which objects are created.
-   ●▶ Object is an instance of a class
+Q1. Correct Statement
+
+Select the correct statement(s). 
+
+Options
+This problem may have one or more correct answers
+(a) OOPS refers to using objects in programming 
+(b) A class is a user defined blueprint from which objects are created. 
+(c) Object of same class have different properties.
+(d) Object is an instance of a class. 
+
+Ans. (a) OOPS refers to using objects in programming
+     (b) A class is a user defined blueprint from which objects are created.
+     (d) Object is an instance of a class
+     
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 2. ●▶ Student s1=new Student();
 3. ●▶ 5 Rohit
 4. ●▶ Line 2
