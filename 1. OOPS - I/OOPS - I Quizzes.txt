@@ -30,7 +30,32 @@ Ans. (c) Student s1=new Student(); ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-3. ●▶ 5 Rohit
+3. Predict the output
+
+What would be the output of the following code?
+class Student{
+    int roll_number;
+    String name;
+}
+class DPS {
+    public static void main (String[] args) {
+        Student s=new Student();
+        s.roll_number=5;
+        s.name="Rohit";
+        System.out.println(s.roll_number+" "+s.name);
+    }
+} 
+
+Options
+This problem has only one correct answer
+(a) 5 Rohit 
+(b) Rohit 5
+(c) error
+
+Ans. (a) 5 Rohit ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 4. ●▶ Line 2
 5. ●▶ Student@232204a1
 6. ●▶ Public
