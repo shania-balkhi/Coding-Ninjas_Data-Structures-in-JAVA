@@ -30,7 +30,7 @@ Ans. (c) Student s1=new Student(); ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-3. Predict the output
+Q3. Predict the output
 
 What would be the output of the following code?
 class Student{
@@ -56,7 +56,35 @@ Ans. (a) 5 Rohit ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-4. ●▶ Line 2
+Q4. Find the error
+
+Which line of the following code would give an error?
+class Car{
+    int year;
+    String company_name;
+}
+class New_Car {
+    public static void main (String[] args) {
+        Car c=new Car();        //Line 1
+        year=2018;              //Line 2
+        c.company_name="Honda"; //Line 3
+    }
+}
+
+Options
+This problem has only one correct answer
+(a) Line 1
+(b) Line 2 
+(c) Line 3
+(d) No error
+
+Ans. (b) Line 2 ✓
+
+Solution Description
+In line 2 , the year is not a variable in main.So we need to use the object of class Car.
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 5. ●▶ Student@232204a1
 6. ●▶ Public
    ●▶ Default
