@@ -110,8 +110,21 @@ Ans. (c) Student@232204a1 ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-6. ●▶ Public
-   ●▶ Default
+Q6. Access Modifiers
+
+Which access modifier can be used to access a variable outside the class and within the package? 
+
+Options
+This problem may have one or more correct answers
+(a) Public 
+(b) Private
+(c) Default 
+
+Ans. (a) Public ✓
+     (c) Default ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 7. ●▶ No
 8. ●▶ Error
 9. ●▶ 10
