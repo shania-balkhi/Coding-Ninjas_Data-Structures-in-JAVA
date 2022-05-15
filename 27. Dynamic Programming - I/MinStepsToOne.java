@@ -80,11 +80,23 @@ algo - (simple recursion, DP not employed)
     	}
     
     2.2 In induction hypothesis -
-    	 we initialise 'ans2' and 'ans3' with 'Integer.MAX_VALUE' becuase its initialisation
-         is needed to avoid compilation error wrt non-initialized variables, 'ans2' and 'ans3'.
+    	 2.2.1 we decalre 3 'int' type variables, namely, 'ans1', 'ans2' and 'ans3'.
+               'ans2' and 'ans3' are initialised with the value 'Integer.MAX_VALUE' since it's not
+               certain whether we will arrive at a definite value for 'ans2' and 'ans3' respectively;
+               since it may happen that no number is divisible by 2 and/or 3 respectievly.
+               
+               'ans1' may or may not be initialised with the value 'Integer.MAX_VALUE' since it is certain
+               that we will arrive at a definite value for 'ans1'; since subtracting a no. > 1(base case) is 
+               always allowed in this question.
+        
+         2.2.2 we make a recursive call to 'countMinStepsToOne(n/2)' if n is divisible by 2 and store 
+               the value returned by the method call in the variable 'ans2' (line 105)
+               
+         2.2.3 we make a recursive call to 'countMinStepsToOne(n/3)' if n is divisible by 3 and store 
+               the value returned by the method call in the variable 'ans3' (line 108)
         
     2.3 induction step -
-    	 we take the minimum of all "paths" so explored and add 1 to it!
+    	 we take the minimum of all "paths" so explored (i.e., minimum of 'ans1', 'ans2' and 'ans3') and add 1 to it!
 */
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
