@@ -53,12 +53,15 @@ public class Solution {
 
 /*
 algo (for Recursion) -
-1. base case - 
+1. edge case
+   for 0 steps, we have no. of ways = 1 
+
+2. base case - 
    i. for 1 step, we have no. of ways = 1
    ii. for 2 steps, we have no. of ways = 2
    iii. for 3 steps, we have no. of ways = 4
    
-2. induction hypothesis - 
+3. induction hypothesis - 
    in order to reach the nth step, the child can either take a jump from
    i. the (n - 1)th step, or
    ii. the (n - 2)th step, or
@@ -67,7 +70,7 @@ algo (for Recursion) -
    hence we find staircase(n - 1), staircase(n - 2) and staircase(n - 3)
    (and store these in ans1, ans2 and ans3 respectively).
    
-3. induction step -
+4. induction step -
    in order to find the total number of ways to reach the nth step,
    if we take the sum of the
    i. number of ways to reach the (n - 1)th step, and
