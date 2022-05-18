@@ -149,7 +149,38 @@ Ans. (b) No ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-8. ●▶ Error
+Q8. Predict the output
+
+What would be the output of the following code?
+class Mobile{
+    private int year;
+    String company_name;
+}
+class new_device {
+    public static void main (String[] args) {
+        Mobile c=new Mobile();        
+        c.year=2018;              
+        c.company_name="Apple";
+        System.out.println(c.company_name); 
+    }
+}
+
+Options
+This problem has only one correct answer
+(a) Apple
+(b) No output
+(c) Error 
+
+Ans. (c) Error ✓
+
+Solution Description -
+The variable year in Mobile class is private.
+So it cannot be accessed outside the class.
+
+Hence the line, c.year=2018, would give an error.
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 9. ●▶ 10
 10.●▶ 10 Naman
 11.●▶ a=0 b=10
