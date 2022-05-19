@@ -181,7 +181,42 @@ Hence the line, c.year=2018, would give an error.
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-9. ●▶ 10
+Q9. Predict the output
+
+What will be the output of the following code?(Considering both the classes are in the same package).
+class Employee{
+    String name;
+        private int emp_id;
+    public void set_id(int id)
+    {
+        if(id>0)
+        emp_id=id;
+        else 
+        System.out.println("Invalid id");
+    }
+    public int get_id()
+    {
+        return emp_id;
+    }
+}
+class office {
+    public static void main (String[] args) {
+        Employee e=new Employee();  
+        e.set_id(10);
+        System.out.println(e.get_id());
+    }
+}
+
+Options
+This problem has only one correct answer
+(a) 10 
+(b) 0
+(c) error
+
+Ans. (a) 10 ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 10.●▶ 10 Naman
 11.●▶ a=0 b=10
 12.●▶this
