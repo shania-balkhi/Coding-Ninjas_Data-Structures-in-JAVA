@@ -297,7 +297,21 @@ Now this.b=b sets the variable b of class Test equal to 10 and a remains 0.
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-12.●▶this
+Q12. Keyword
+
+Which keyword is a reference variable that refers to the current object?
+
+Options
+This problem has only one correct answer
+(a) object
+(b) this 
+(c) class
+(d) private
+
+Ans. (b) this ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 13.●▶Constructor two Dharmesh 26
 14.●▶constrcutor two constructor one
 15.●▶Final variable can be initialized only once and cannot be modified further.
