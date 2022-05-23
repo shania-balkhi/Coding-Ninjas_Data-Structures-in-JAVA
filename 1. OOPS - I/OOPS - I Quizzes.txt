@@ -312,7 +312,46 @@ Ans. (b) this ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-13.●▶Constructor two Dharmesh 26
+Q13. Predict the output
+
+What will be the output of the following code?
+class Ninja 
+{ 
+    Ninja(String name) 
+    { 
+        System.out.println("Constructor one " + name); 
+    } 
+    Ninja(String name, int age) 
+    { 
+        System.out.println("Constructor two " + name + " "+ age); 
+    } 
+    Ninja(long id) 
+    { 
+        System.out.println("Constructor three " + id); 
+    } 
+} 
+
+class Student 
+{ 
+    public static void main(String[] args) 
+    {  
+        Ninja geek3 = new Ninja("Dharmesh", 26); 
+    } 
+} 
+
+Options
+This problem has only one correct answer
+(a) Constructor one Dharmesh
+(b) Constructor two Dharmesh 26 
+(c)Constructor three 26
+
+Ans. (b) Constructor two Dharmesh 26 ✓
+
+Solution Description
+The constructor with two arguments string and integer is called.
+
+/*--*/
+
 14.●▶constrcutor two constructor one
 15.●▶Final variable can be initialized only once and cannot be modified further.
    ●▶We can initialize final variable inside constructor.
