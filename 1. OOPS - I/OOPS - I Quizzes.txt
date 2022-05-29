@@ -354,7 +354,7 @@ The constructor with two arguments string and integer is called.
 
 Q14. 
 ●▶constrcutor two constructor one
-15.●▶Final variable can be initialized only once and cannot be modified further.
+Q15. ●▶Final variable can be initialized only once and cannot be modified further.
    ●▶We can initialize final variable inside constructor.
    ●▶Final keyword is a non-access modifier.
 16.●▶Error
