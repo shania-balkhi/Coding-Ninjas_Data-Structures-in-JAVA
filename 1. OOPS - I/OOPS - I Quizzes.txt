@@ -85,7 +85,7 @@ In line 2 , the year is not a variable in main.So we need to use the object of c
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-5. Possible output
+Q5. Possible output
 
 What can be the possible output of the following code?
 class Student{
