@@ -279,7 +279,12 @@ algo - (for Recursive DP)
    extra row and one extra column in order to dodge the 'ArrayIndexOutOfBoundsException' which is certain to get 
    triggered if we take the respective values as just 'm' and 'n' only! (watch MinCost Memoization @00:09:33 for more clarity) 
    
-   note2 - 'Integer.MIN_VALUE' is chosen as the appropriate value for the empty indices of the matrix since 'Integer.MIN_VALUE' 
+   note2 - instead of incrementing the rowSize and columnSize with 1, we could have written separate lines of code to
+   keep a check that no the recursive function call, does not inflict 'ArrayIndexOutOfBoundsException' error (like the method we have
+   written for the input[][] matrix - private static boolean isSafeToTravel(int[][] input, int i, int j)). Hence, the programmar could
+   chose any of the 2 above mentioned ways to dodge the 'ArrayIndexOutOfBoundsException' error.
+   
+   note3 - 'Integer.MIN_VALUE' is chosen as the appropriate value for the empty indices of the matrix since 'Integer.MIN_VALUE' 
    is most likely to not in the set of "input values" for the input[][] matrix. The input[][] matrix can contain input values :
    'any +ve integer, any -ve integer, +ve infinity' but not '-ve infinity'.
   
