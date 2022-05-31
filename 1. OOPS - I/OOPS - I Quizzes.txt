@@ -352,8 +352,49 @@ The constructor with two arguments string and integer is called.
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-Q14. 
-●▶constrcutor two constructor one
+Q14. Predict the output
+
+What will be the output of the following code?
+class Test 
+{ 
+    int a; 
+    int b; 
+    Test() 
+    {   
+        this(10, 20);   
+        System.out.print("constructor one "); 
+    } 
+    Test(int a, int b) 
+    { 
+        this.a = a; 
+        this.b = b; 
+        System.out.print("constructor two "); 
+    } 
+}
+class new_test{
+    public static void main(String[] args) 
+    { 
+        Test object = new Test(); 
+    } 
+}  
+
+Options
+This problem has only one correct answer
+(a) constructor one
+(b) constructor two
+(c) constructor two constructor one 
+(d) constructor one constructor two
+
+Ans. (c) constructor two constructor one ✓
+
+Solution Description
+When the object of Test class is created,the constructor with no arguments is called.
+When  this(10,20) is encountered , the constructor with two arguments int and int is 
+called because this is the reference of the object. So using this way we can call more
+than one constructor.
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 Q15. ●▶Final variable can be initialized only once and cannot be modified further.
    ●▶We can initialize final variable inside constructor.
    ●▶Final keyword is a non-access modifier.
