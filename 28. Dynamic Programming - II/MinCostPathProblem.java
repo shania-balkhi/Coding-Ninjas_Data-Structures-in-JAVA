@@ -47,46 +47,46 @@ Sample Output 3 :
 */
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 //1. Brute - force recursive solution
-public class Solution {
+// public class Solution {
 
-	public static int minCostPath(int[][] input) {
-		return minCostPath(input, 0, 0);
-	}
+// 	public static int minCostPath(int[][] input) {
+// 		return minCostPath(input, 0, 0);
+// 	}
     
-	private static int minCostPath(int[][] input, int i, int j){
+// 	private static int minCostPath(int[][] input, int i, int j){
         
-        //base case
-        if (i == input.length - 1 && j == input[0].length - 1){
-            return input[i][j];
-        }
+//         //base case
+//         if (i == input.length - 1 && j == input[0].length - 1){
+//             return input[i][j];
+//         }
         
-        //induction hypothesis
-        int down = Integer.MAX_VALUE;
-        int right = Integer.MAX_VALUE;
-        int diagonal = Integer.MAX_VALUE;
-        if(isSafeToTravel(input, i + 1, j)){
-            down = minCostPath(input, i + 1, j);
-        }
-        if(isSafeToTravel(input, i, j + 1)){
-            right = minCostPath(input, i, j + 1);
-        }
-        if(isSafeToTravel(input, i + 1, j + 1)){
-            diagonal = minCostPath(input, i + 1, j + 1);
-        }
+//         //induction hypothesis
+//         int down = Integer.MAX_VALUE;
+//         int right = Integer.MAX_VALUE;
+//         int diagonal = Integer.MAX_VALUE;
+//         if(isSafeToTravel(input, i + 1, j)){
+//             down = minCostPath(input, i + 1, j);
+//         }
+//         if(isSafeToTravel(input, i, j + 1)){
+//             right = minCostPath(input, i, j + 1);
+//         }
+//         if(isSafeToTravel(input, i + 1, j + 1)){
+//             diagonal = minCostPath(input, i + 1, j + 1);
+//         }
         
-        //induction step
-        return input[i][j] + Math.min(down, Math.min(right, diagonal));
+//         //induction step
+//         return input[i][j] + Math.min(down, Math.min(right, diagonal));
         
-    }
+//     }
     
-    private static boolean isSafeToTravel(int[][] input, int i, int j){
-        if(i >= input.length || j >= input[0].length){
-            return false;
-        }
-        return true;
-    }
+//     private static boolean isSafeToTravel(int[][] input, int i, int j){
+//         if(i >= input.length || j >= input[0].length){
+//             return false;
+//         }
+//         return true;
+//     }
     
-}
+// }
 
 
 
@@ -165,3 +165,173 @@ public class Solution {
          
     2.5 finally, we return the value calculated in step 2.4
 */
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+//2. Recursive DP Solution
+//Time Complexity : O(m*n) where m = no. of rows and n = no. of columns
+public class Solution {
+
+	public static int minCostPath(int[][] input) {
+        int rowLen = input.length;
+        int colLen = input[0].length;
+        int[][] dp = new int[rowLen + 1][colLen + 1];
+        for(int i = 0; i < rowLen; ++i){
+            for(int j = 0; j < colLen; ++j){
+                dp[i][j] = Integer.MIN_VALUE;
+            }
+        }
+		return minCostPath(input, dp, 0, 0);
+	}
+    
+	private static int minCostPath(int[][] input, int[][] dp, int i, int j){
+        
+        //base case
+        if (i == input.length - 1 && j == input[0].length - 1){
+            return input[i][j];
+        }
+        
+        //induction hypothesis
+        int down = Integer.MAX_VALUE;
+        int right = Integer.MAX_VALUE;
+        int diagonal = Integer.MAX_VALUE;
+        if(isSafeToTravel(input, i + 1, j)){
+        	if(dp[i + 1][j] == Integer.MIN_VALUE){
+            	down = minCostPath(input, dp, i + 1, j);
+                dp[i + 1][j] = down;
+        	}else{
+                down = dp[i + 1][j];
+            }
+        }
+        
+        if(isSafeToTravel(input, i, j + 1)){
+        	if(dp[i][j + 1] == Integer.MIN_VALUE){            
+            	right = minCostPath(input, dp, i, j + 1);
+                dp[i][j + 1] = right;
+        	}else{
+                right = dp[i][j + 1];
+            }
+        }
+        
+        if(isSafeToTravel(input, i + 1, j + 1)){
+        	if(dp[i + 1][j + 1] == Integer.MIN_VALUE){
+            	diagonal = minCostPath(input, dp, i + 1, j + 1);
+                dp[i + 1][j + 1] = diagonal;
+        	}else{
+                diagonal = dp[i + 1][j + 1];
+            }
+        }
+        
+        
+        //induction step
+        return input[i][j] + Math.min(down, Math.min(right, diagonal));
+        
+    }
+    
+    private static boolean isSafeToTravel(int[][] input, int i, int j){
+        if(i >= input.length || j >= input[0].length){
+            return false;
+        }
+        return true;
+    }
+    
+}
+
+
+
+
+
+/*
+algo - (for Recursive DP)
+1. we have three methods in the 'Solution' class, namely,
+   i. public static int minCostPath(int[][] input),
+   ii. private static int minCostPath(int[][] input, int i, int j), and
+   iii. private static boolean isSafeToTravel(int[][] input, int i, int j)
+   
+    
+	1.1. about the 'public static int minCostPath(int[][] input)' method -
+    	 see step 2 for complete explanation of this method.
+    
+    
+    1.2 about the 'private static int minCostPath(int[][] input, int i, int j)' method -
+        This is the core recursive code/method that solves this problem. We'll explore 
+        this method in later steps.
+        
+        
+    1.3 about the 'private static boolean isSafeToTravel(int[][] input, int i, int j)' method -
+        This is the method that returns true if the cell (position in the matrix) concerned is 
+        safeToTravelTo, otherwise returns false.
+
+        we return 'false' if 'i' and/or 'j' exceed the boundaries of the matrix, otherwise 
+        we return true (lines 231 to 234).
+        [
+          'i' and 'j' are the coordinates/indexPositions of the matrix. 
+          'i' = num of rows, and
+          'j' = num of columns
+        ]
+
+
+2. in the 'public static int minCostPath(int[][] input)' method,
+   2.1 we create an array named dp[][] of rowSize (m + 1) and columnSize (n + 1) and initialize all 
+   	   it's indices with value 'Integer.MIN_VALUE'.   (m = no. of rows in input[][] and n = no. of columns in input[][])
+  
+   note1 - array rowSize and columnSize are taken as (m + '1') and (n + '1') respectively in order to create one
+   extra row and one extra column in order to dodge the 'ArrayIndexOutOfBoundsException' which is certain to get 
+   triggered if we take the respective values as just 'm' and 'n' only! (watch MinCost Memoization @00:09:33 for more clarity) 
+   
+   note2 - 'Integer.MIN_VALUE' is chosen as the appropriate value for the empty indices of the matrix since 'Integer.MIN_VALUE' 
+   is most likely to not in the set of "input values" for the input[][] matrix. The input[][] matrix can contain input values :
+   'any +ve integer, any -ve integer, +ve infinity' but not '-ve infinity'.
+  
+  2.2 then, we call this 'private static int minCostPath(int[][] input, int i, int j)' method.
+   
+  
+3. Inside the 'private static int minCostPath(int[][] input, int i, int j)' method -
+    This is the core recursive code/method that solves this problem.
+    
+    3.1 base case - 
+   		 if i and j both reach the ultimate (last) cell of the matrix, then return the 
+    	 value present in that cell.
+         
+    3.2 we decalre 3 'int' type variables, namely, 'down', 'right' and 'diagonal';
+        and initialise them with infinity i.e., 'Integer.MAX_VALUE', in order to avoid 
+        the following error -
+        
+        Compilation Failed
+		./Solution.java:81: error: variable down might not have been initialized
+        return input[i][j] + Math.min(down, Math.min(right, diagonal));
+                                      ^
+		./Solution.java:81: error: variable right might not have been initialized
+        return input[i][j] + Math.min(down, Math.min(right, diagonal));
+                                                     ^
+		./Solution.java:81: error: variable diagonal might not have been initialized
+        return input[i][j] + Math.min(down, Math.min(right, diagonal));
+                                                            ^
+		3 errors
+         
+    3.3 memoization & induction hypothesis - 
+    	3.3.1. we check whether the [i + 1][j]th index in the dp[][] matrix priorly contains a value or not.
+        	   no value is indicated by 'Integer.MIN_VALUE'.
+               
+               3.3.1.1 So if the concerned index is filled with value 'Integer.MIN_VALUE', then it can be infered that that index does
+               		   	not hold a prior value, hence we have to make a recursive call to 'minCostPath(input, dp, i + 1, j)' method and
+               		   	store in the variable 'down'. (line 199)
+                        
+               3.3.1.2 now that we have made the recursive call mentioned in the previous step 3.3.1.1., we have to store 
+                       the value returned by this function call in the [i + 1][j]th index of the dp[] array. (line 200)
+                       
+               3.3.1.3 if the concerned cell was not filled by the value 'Integer.MIN_VALUE' in the first place, one can infer that the 
+                        index concerned did hold a valid value priorly; and that value is the required value. Hence, we store 
+                        that value in the 'down' variable. (line 202)
+                        
+        3.3.2 repeat step no. 3.3.1 for [i][j + 1]th index as well as [i + 1][j + 1]th index of the dp[] array.
+               
+4. induction step - 
+    we take the minimum of all "paths" so explored (i.e., minimum of 'down', 'right' and 'diagonal') and 
+    add the value corresponding to the current cell of the matrix (i.e., input[i][j]).
+        
+5. return the value calculated in step 4
+*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
