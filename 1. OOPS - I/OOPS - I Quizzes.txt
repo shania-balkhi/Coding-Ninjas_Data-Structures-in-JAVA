@@ -395,9 +395,23 @@ than one constructor.
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-Q15. ●▶Final variable can be initialized only once and cannot be modified further.
-   ●▶We can initialize final variable inside constructor.
-   ●▶Final keyword is a non-access modifier.
+Q15. Final Keyword
+
+Select the correct statement(s) about final keyword?
+
+Options
+This problem may have one or more correct answers
+(a) Final variable can be initialized only once and cannot be modified further. 
+(b) We can initialize final variable inside a function.
+(c) We can initialize final variable inside constructor. 
+(d) Final keyword is a non-access modifier. 
+
+Ans. (a) Final variable can be initialized only once and cannot be modified further. ✓
+     (c) We can initialize final variable inside constructor. ✓
+     (d) Final keyword is a non-access modifier. ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 16.●▶Error
 17.●▶2018
 18.●▶No error
