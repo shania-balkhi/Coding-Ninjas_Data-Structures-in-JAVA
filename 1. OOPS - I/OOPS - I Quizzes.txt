@@ -412,7 +412,34 @@ Ans. (a) Final variable can be initialized only once and cannot be modified furt
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-16.●▶Error
+Q16. Predict the output
+
+What will be the output of the following code?
+class Pen{
+    final int price = 15;
+}
+
+public class MCQs {
+    public static void main(String[] args) {
+        Pen p = new Pen();
+        p.price = 20;
+        System.out.println(p.price);
+    }   
+}  
+
+Options
+This problem has only one correct answer
+(a) 15
+(b) 20
+(c) Error 
+
+Ans. (c) Error ✓
+
+Solution Description
+Since the variable price is final so we cannot update its value.
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 17.●▶2018
 18.●▶No error
 19.●▶50
