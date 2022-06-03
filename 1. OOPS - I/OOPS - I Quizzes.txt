@@ -440,7 +440,33 @@ Since the variable price is final so we cannot update its value.
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-17.●▶2018
+Q17. Predict the output
+
+What will be the output of the following code?
+class Car{
+    static int year;
+    String company_name;
+}
+class new_Car {
+    public static void main (String[] args) {
+        Car c=new Car();        
+        Car.year=2018;              
+        c.company_name="KIA";
+        Car d=new Car();
+        System.out.print(d.year);
+    }
+}
+
+Options
+This problem has only one correct answer
+(a) 0
+(b) Error
+(c) 2018 
+
+Ans. (c) 2018 ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 18.●▶No error
 19.●▶50
 20.●▶Line 2
