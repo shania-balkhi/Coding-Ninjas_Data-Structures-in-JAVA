@@ -47,46 +47,46 @@ Sample Output 3 :
 */
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 //1. Brute - force recursive solution
-// public class Solution {
+public class Solution {
 
-// 	public static int minCostPath(int[][] input) {
-// 		return minCostPath(input, 0, 0);
-// 	}
+	public static int minCostPath(int[][] input) {
+		return minCostPath(input, 0, 0);
+	}
     
-// 	private static int minCostPath(int[][] input, int i, int j){
+	private static int minCostPath(int[][] input, int i, int j){
         
-//         //base case
-//         if (i == input.length - 1 && j == input[0].length - 1){
-//             return input[i][j];
-//         }
+        //base case
+        if (i == input.length - 1 && j == input[0].length - 1){
+            return input[i][j];
+        }
         
-//         //induction hypothesis
-//         int down = Integer.MAX_VALUE;
-//         int right = Integer.MAX_VALUE;
-//         int diagonal = Integer.MAX_VALUE;
-//         if(isSafeToTravel(input, i + 1, j)){
-//             down = minCostPath(input, i + 1, j);
-//         }
-//         if(isSafeToTravel(input, i, j + 1)){
-//             right = minCostPath(input, i, j + 1);
-//         }
-//         if(isSafeToTravel(input, i + 1, j + 1)){
-//             diagonal = minCostPath(input, i + 1, j + 1);
-//         }
+        //induction hypothesis
+        int down = Integer.MAX_VALUE;
+        int right = Integer.MAX_VALUE;
+        int diagonal = Integer.MAX_VALUE;
+        if(isSafeToTravel(input, i + 1, j)){
+            down = minCostPath(input, i + 1, j);
+        }
+        if(isSafeToTravel(input, i, j + 1)){
+            right = minCostPath(input, i, j + 1);
+        }
+        if(isSafeToTravel(input, i + 1, j + 1)){
+            diagonal = minCostPath(input, i + 1, j + 1);
+        }
         
-//         //induction step
-//         return input[i][j] + Math.min(down, Math.min(right, diagonal));
+        //induction step
+        return input[i][j] + Math.min(down, Math.min(right, diagonal));
         
-//     }
+    }
     
-//     private static boolean isSafeToTravel(int[][] input, int i, int j){
-//         if(i >= input.length || j >= input[0].length){
-//             return false;
-//         }
-//         return true;
-//     }
+    private static boolean isSafeToTravel(int[][] input, int i, int j){
+        if(i >= input.length || j >= input[0].length){
+            return false;
+        }
+        return true;
+    }
     
-// }
+}
 
 
 
