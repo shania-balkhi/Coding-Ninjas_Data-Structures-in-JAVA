@@ -340,3 +340,95 @@ algo - (for Recursive DP)
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+//Iterative DP Solution
+public class Solution {
+
+	public static int minCostPath(int[][] input) {
+		
+        int[][] dp = new int[input.length + 1][input[0].length + 1];
+        
+        for(int i = 0; i < input.length + 1; ++i){
+            for(int j = 0; j < input[0].length + 1; ++j){
+                dp[i][j] = Integer.MAX_VALUE;
+            }
+        }
+        
+        for(int i = input.length - 1; i >= 0; --i){
+            for(int j = input[i].length - 1; j >= 0; --j){
+                
+                if(i == input.length - 1 && j == input[i].length - 1){
+                    dp[i][j] = input[i][j];
+                    continue;
+                }
+                
+                int down = Integer.MAX_VALUE;
+                int right = Integer.MAX_VALUE;
+                int diagonal = Integer.MAX_VALUE;
+                down = dp[i + 1][j];
+                right = dp[i][j + 1];
+                diagonal = dp[i + 1][j + 1];
+                
+                dp[i][j] = input[i][j] + Math.min(down, Math.min(right, diagonal));
+                
+            }
+        }
+        
+        return dp[0][0];
+        
+	}
+    
+}
+
+
+
+
+
+
+/*algo - 
+   1. we create an array named dp[][] of rowSize (m + 1) and columnSize (n + 1) and initialize all 
+      it's indices with value 'Integer.MAX_VALUE'. The idea is to fill all the cells with value '+ve infinity'.
+      (m = no. of rows in input[][] and n = no. of columns in input[][])
+  
+   note1 - array rowSize and columnSize are taken as (m + '1') and (n + '1') respectively in order to create one
+   extra row and one extra column in order to dodge the 'ArrayIndexOutOfBoundsException' which is certain to get 
+   triggered if we take the respective values as just 'm' and 'n' only! (watch MinCost Memoization @00:09:33 for more clarity)
+   
+   note2 - instead of incrementing the rowSize and columnSize with 1, we could have written separate lines of code to
+   keep a check that the recursive function call, does not inflict 'ArrayIndexOutOfBoundsException' error (like the method we have
+   written for the input[][] matrix - private static boolean isSafeToTravel(int[][] input, int i, int j)). Hence, the programmar could
+   chose any of the 2 above mentioned ways to dodge the 'ArrayIndexOutOfBoundsException' error.
+   
+   2. Now, in this dp[][] matrix, we start traversing from the last cell, backwards till the [0,0] index. (line 356 & 357)
+      
+      
+      2.1 in the first iteration itself when 
+   	  i and j both are at the last)cell of the matrix, we store the value present in the last cell of input[][] matrix
+          in the last cell of the dp[][] matrix; and then use the 'continue' jump statement in the loop.
+         
+      2.2 we decalre 3 'int' type variables, namely, 'down', 'right' and 'diagonal';
+        and initialise them with infinity i.e., 'Integer.MAX_VALUE', in order to avoid 
+        the following error -
+        
+        Compilation Failed
+		./Solution.java:81: error: variable down might not have been initialized
+        return input[i][j] + Math.min(down, Math.min(right, diagonal));
+                                      ^
+		./Solution.java:81: error: variable right might not have been initialized
+        return input[i][j] + Math.min(down, Math.min(right, diagonal));
+                                                     ^
+		./Solution.java:81: error: variable diagonal might not have been initialized
+        return input[i][j] + Math.min(down, Math.min(right, diagonal));
+                                                            ^
+		3 errors
+        
+      2.3  we store the value correspoding to the index dp[i + 1][j] in the variable 'down' (line 367). Then we, 
+           we store the value correspoding to the index dp[i][j + 1] in the variable 'right' (line 368). Then we,
+           we store the value correspoding to the index dp[i + 1][j + 1] in the variable 'diagonal' (line 369).
+           
+      2.4 then in the current [i][j]th index of the dp[][] matrix, we store the value present in the current [i][j]th index
+          of the input[][] matrix plus the minimum amongst the values stored in the variables, 'down', 'right', 'diagonal' respectively.
+          
+  3. we return dp[0][0] meaning that the [0][0]th index of the dp[][] matrix stores the desired output.
+*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
