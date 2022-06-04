@@ -340,7 +340,7 @@ algo - (for Recursive DP)
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-//Iterative DP Solution
+//Iterative DP Solution - using bottom-up approach
 public class Solution {
 
 	public static int minCostPath(int[][] input) {
