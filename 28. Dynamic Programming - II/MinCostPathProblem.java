@@ -432,3 +432,83 @@ public class Solution {
 */
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+//Iterative DP SOlution - using top-down approach
+public class Solution {
+
+	public static int minCostPath(int[][] input) {
+		
+        int[][] dp = new int[input.length + 1][input[0].length + 1];
+        
+        for(int i = 0; i < dp.length; ++i){
+            for(int j = 0; j < dp[i].length; ++j){
+                dp[i][j] = Integer.MAX_VALUE;
+            }
+        }
+        
+        for(int i = 1; i < dp.length; ++i){
+            for(int j = 1; j < dp[i].length; ++j){
+                
+                if(i == 1 && j == 1){
+                    dp[i][j] = input[i - 1][j - 1];
+                    continue;
+                }
+                
+                int top = dp[i - 1][j];
+                int left = dp[i][j - 1];
+                int up_diagonal = dp[i - 1][j - 1];
+                
+                dp[i][j] = input[i - 1][j - 1] + Math.min(top, Math.min(left, up_diagonal));
+                
+            }
+        }
+        
+        return dp[dp.length - 1][dp[0].length - 1];
+        
+	}
+    
+}
+
+
+
+
+
+/*algo - 
+   1. we create an array named dp[][] of rowSize (m + 1) and columnSize (n + 1) and initialize all 
+   it's indices with value 'Integer.MAX_VALUE'. The idea is to fill all the cells with value '+ve infinity'.
+   (m = no. of rows in input[][] and n = no. of columns in input[][])
+  
+   note1 - array rowSize and columnSize are taken as (m + '1') and (n + '1') respectively in order to create one
+   extra row and one extra column in order to dodge the 'ArrayIndexOutOfBoundsException' which is certain to get 
+   triggered if we take the respective values as just 'm' and 'n' only! (watch MinCost Memoization @00:09:33 for more clarity)
+   
+   note2 - instead of incrementing the rowSize and columnSize with 1, we could have written separate lines of code to
+   keep a check that the recursive function call, does not inflict 'ArrayIndexOutOfBoundsException' error (like the method we have
+   written for the input[][] matrix - private static boolean isSafeToTravel(int[][] input, int i, int j)). Hence, the programmar could
+   chose any of the 2 above mentioned ways to dodge the 'ArrayIndexOutOfBoundsException' error.
+   
+   2. Now, in this dp[][] matrix, we start traversing from the cell [1][1], forward till the last cell. (line 449 & 450)
+      
+      2.1 in the first iteration itself when i == 1 and j == 1, we store the value present in the [i - 1][j - 1] cell 
+          of input[][] matrix in the [i][j] cell of the dp[][] matrix; and then use the 'continue' jump statement in the loop.
+          (note - just visualise and dry run to understand why we are taking the value of [i - 1][j - 1] cell of the input[][] matrix,
+           if you don't understand as yet)
+          
+         
+      2.2 we decalre 3 'int' type variables, namely, 'top', 'left' and 'up_diagonal'.
+        
+           we store the value correspoding to the index dp[i - 1][j] in the variable 'top' (line 457). Then we, 
+           we store the value correspoding to the index dp[i][j - 1] in the variable 'left' (line 458). Then we,
+           we store the value correspoding to the index dp[i - 1][j - 1] in the variable 'up_diagonal' (line 459).
+           
+           (note - just visualise and dry run to understand why we are doing the "variable - 1" thing,
+                  if you don't understand as yet)
+           
+      2.4 then in the current [i][j]th index of the dp[][] matrix, we store the value present in the current [i][j]th index
+          of the input[][] matrix plus the minimum amongst the values stored in the variables, 'top', 'left', 'up_diagonal' respectively.
+          
+   3. we return dp[m - 1][n - 1] meaning that the [m - 1][n - 1]th index of the dp[][] matrix stores the desired output.
+     (m = no. of rows in input[][] and n = no. of columns in dp[][] matrix)
+*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
