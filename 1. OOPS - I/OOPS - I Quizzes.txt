@@ -535,6 +535,48 @@ We print a+b=50.
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-20.●▶Line 2
-   ●▶Line 3
-   ●▶Line 4
+Q20. Find the error
+
+Which of the following line(s)would produce an error?
+class Test 
+{
+    static int a = 10; 
+    int b = 20; 
+    static void fun1() 
+    { 
+        a = 20;                             //Line 1
+        b = 10;                             //Line 2
+        fun2();                             //Line 3
+        System.out.print(this.b);           //Line 4
+    } 
+    void fun2() 
+    {     
+        System.out.println("from m2"); 
+    }
+}
+class MCQ{    
+    public static void main(String[] args) 
+    { 
+        Test.fun1(); 
+    } 
+} 
+
+Options
+This problem may have one or more correct answers
+(a) Line 1
+(b) Line 2 
+(c) Line 3 
+(d) Line 4 
+
+Ans. (b) Line 2 ✓
+     (c) Line 3 ✓
+     (d) Line 4 ✓
+     
+Solution Description
+Line 2: static functions cannot use non-static variables.
+
+Line 3: Static function cannot call non-static function.
+
+Line 4:this or super keyword cannot be used inside a static function.
+
+/*----------------------------------------------------------------------------END------------------------------------------------------------------------------------*/
