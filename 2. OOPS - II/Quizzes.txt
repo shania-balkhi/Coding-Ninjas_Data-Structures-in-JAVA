@@ -13,3 +13,20 @@ Ans. (d) Aggregation ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+Q2. Correct Statement
+
+Select the correct statement(s).
+
+Options
+This problem may have one or more correct answers
+(a) Encapsulation is hiding of data from outside world. 
+(b) Abstraction means showing only necessary details to the user. 
+(c) Inheritance is acquiring properties of other class. 
+(d) Java is not an object oriented language.
+
+Ans. (a) Encapsulation is hiding of data from outside world. ✓
+     (b) Abstraction means showing only necessary details to the user. ✓
+     (c) Inheritance is acquiring properties of other class. ✓ 
+     
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
