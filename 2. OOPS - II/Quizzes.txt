@@ -30,3 +30,17 @@ Ans. (a) Encapsulation is hiding of data from outside world. ✓
      
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+Q3. Keyword
+
+Which keyword is used to inherit a class?
+
+Options
+This problem has only one correct answer
+(a) inherits
+(b) extends 
+(c) imports
+(d) None of these
+
+Ans. (b) extends ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
