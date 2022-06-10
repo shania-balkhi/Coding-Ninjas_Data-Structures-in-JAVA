@@ -44,3 +44,27 @@ This problem has only one correct answer
 Ans. (b) extends ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q4. Properties of a class
+
+Which variable(s) can the class person access in the following code?
+class person{
+    String name;
+    int weight;
+}
+class Student extends person{
+    int roll_number;
+    String school_name;
+}
+
+Options
+This problem may have one or more correct answers
+(a) name 
+(b) weight 
+(c) roll_number
+(d) school_name
+
+Ans. (a) name ✓
+     (b) weight ✓ 
+     
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
