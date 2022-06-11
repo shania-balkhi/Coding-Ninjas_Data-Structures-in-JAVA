@@ -68,3 +68,34 @@ Ans. (a) name ✓
      (b) weight ✓ 
      
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q5. Predict the output
+
+What would be the output of the following code?
+public class person {
+    String name;
+    int weight;
+}
+public class Student extends person{
+    int roll_number;
+    String school_name;
+    void print()
+    {
+        System.out.print(roll_number+" "+name+" "+weight);
+    }
+}
+public class Student_info {
+    public static void main(String[] args) {
+        Student s=new Student();
+        s.name="ayush";
+        s.roll_number=10;
+        s.weight=65;
+        s.school_name="Vijaya Sr. Sec. School";
+        s.print();
+    }
+}
+
+Type your answer here
+Ans. 10 ayush 65 ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
