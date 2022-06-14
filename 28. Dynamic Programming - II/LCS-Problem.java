@@ -135,3 +135,46 @@ public class Solution {
     
 
 }
+
+//algo - (for Recursive DP)
+/*
+1. we have three methods in the 'Solution' class, namely,
+   i. public static int lcs(String s, String t), and
+   ii. private static int lcs(String s, String t, int i, int j, int[][] dp)
+
+		1.1. about the 'public static int lcs(String s, String t)' method -
+    	 	 see step 2 for complete explanation of this method.
+    
+    
+    	1.2 about the 'private static int lcs(String s, String t, int i, int j, int[][] dp)' method -
+            This is the core recursive code/method that solves this problem. We'll explore 
+            this method in later steps.
+            
+2. in the 'public static int lcs(String s, String t)' method,
+   2.1 we create a 2d-matrix named dp[][] of rowSize (m + 1) and columnSize (n + 1) and initialize all 
+   	   it's indices with value '-1'.   (m = no. of rows in input[][] and n = no. of columns in input[][])
+  
+   note1 - array rowSize and columnSize are taken as (m + '1') and (n + '1') respectively in order to create one
+   extra row and one extra column in order to dodge the 'ArrayIndexOutOfBoundsException' which is certain to get 
+   triggered if we take the respective values as just 'm' and 'n' only! (watch 4. MinCost Memoization @00:09:33 for more clarity)
+   
+   note2 - instead of incrementing the rowSize and columnSize with 1, we could have written separate lines of code to
+   keep a check that the recursive function calls, do not inflict 'ArrayIndexOutOfBoundsException' error. Hence, the programmar could
+   chose any of the 2 above mentioned ways to dodge the 'ArrayIndexOutOfBoundsException' error.
+  
+  2.2 then, we call this 'private static int lcs(String s, String t, int i, int j, int[][] dp))' method.
+  
+3. Inside the 'private static int lcs(String s, String t, int i, int j, int[][] dp)' method -
+    This is the core recursive code/method that solves this problem.
+    
+    logic - 3.1 if the first char of both Strings is same, add 1 to answer plus make recursive calls for the rest of the characters 
+           		present in both strings s and t.
+           3.2 if the char of both Strings is not same, then make recursive calls in "seesaw mannner" ('''my lingo XD'''); meaning
+           		that, first, include 'all chars of the first string' and 'all chars of second string except the present char'; 
+                secondly, include 'all chars of first string except the present char' and 'all chars of the second string'. Then take the
+                max of these two (line 62). 
+           3.3 store values so calculated by lines 3.1 and 3.2 and store them in a variable. namely, 'ans' and return return the max
+               of both.
+	       
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
