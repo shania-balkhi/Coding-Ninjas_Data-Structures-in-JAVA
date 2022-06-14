@@ -69,3 +69,69 @@ public class Solution {
 */
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+//2. Recursive DP Solution
+//Time Complexity : O(m*n)
+public class Solution {
+
+	public static int lcs(String s, String t) {
+		
+        int[][] dp = new int[s.length() + 1][t.length() + 1];
+        
+        for(int i = 0; i < dp.length; ++i){
+            for(int j = 0; j < dp[i].length; ++j){
+                dp[i][j] = -1;
+            }
+        }
+        
+        return lcs(s,t,0,0,dp);
+        
+    }
+    
+    
+    private static int lcs(String s, String t, int i, int j, int[][] dp){
+        //base case
+        if(i >= s.length() || j >= t.length()){
+            return 0;
+        }
+        
+        //memoization
+        int ans;
+        if(s.charAt(i) == t.charAt(j)){
+            int smallAns;
+            if(dp[i + 1][j + 1] == -1){
+                smallAns = lcs(s, t,  i + 1, j + 1, dp);
+                dp[i + 1][j + 1] = smallAns;
+            }else{
+                smallAns = dp[i + 1][j + 1];
+            }
+            ans = 1 + smallAns;
+        }else{
+            int smallAns1, smallAns2;
+            
+            //for smallAns1
+            if(dp[i][j + 1] == -1){
+                smallAns1 = lcs(s, t,  i, j + 1, dp);
+                dp[i][j + 1] = smallAns1;
+            }else{
+                smallAns1 = dp[i][j + 1];
+            }
+            
+            //for smallAns2
+            if(dp[i + 1][j] == -1){
+                smallAns2 = lcs(s, t,  i + 1, j, dp);
+                dp[i + 1][j] = smallAns2;
+            }else{
+                smallAns2 = dp[i + 1][j];
+            }
+            
+            ans = Math.max(smallAns1, smallAns2);
+            
+        }
+        
+        return ans;
+        
+    }
+    
+
+}
