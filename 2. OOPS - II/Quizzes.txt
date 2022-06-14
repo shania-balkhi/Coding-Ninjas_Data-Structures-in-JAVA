@@ -124,3 +124,31 @@ Ans. (a) name ✓
      (d) school_name  ✓
      
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q7. Predict the output
+
+What will be the output of the following code?
+class Vehicle{
+    String colour;
+    private int number;
+}
+
+class Car extends Vehicle{
+    public static void main(String[] args) {
+        Vehicle v = new Vehicle();
+        v.colour = "black";
+        v.number = 8486;
+        System.out.println(v.number + " " + v.colour);
+    }
+}
+
+Options
+This problem has only one correct answer
+(a) 8486 black
+(b) Compile time error 
+(c) Run time error
+(d) black 8486
+
+Ans. (b) Compile time error ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
