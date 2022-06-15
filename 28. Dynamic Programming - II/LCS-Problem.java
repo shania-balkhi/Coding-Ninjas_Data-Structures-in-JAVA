@@ -179,6 +179,7 @@ public class Solution {
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 //3. Iterative DP Solution
+//Using bottom-up approach
 public class Solution {
 
 	public static int lcs(String s, String t) {
