@@ -152,3 +152,34 @@ This problem has only one correct answer
 Ans. (b) Compile time error ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q8. Predict the output
+
+What will be the output of the following code?
+Both the classes are in same package.
+class Vehicle{
+    String colour;
+    private int number;
+    void set(int number)
+    {
+        number=number;
+    }
+    int get()
+    {
+        return number;
+    }
+}
+
+class Car extends Vehicle{
+    public static void main(String[] args) {
+        Vehicle v = new Vehicle();
+        v.colour = "white";
+        v.set(1010) ;
+        System.out.println(v.colour + " " + v.get());
+    }
+}
+
+Type your answer here
+Ans. white 0 ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
