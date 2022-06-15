@@ -206,3 +206,48 @@ public class Solution {
     }
 
 }
+
+/*documentation - 
+	1. we create an array named dp[][] of rowSize (m + 1) and columnSize (n + 1) and initialize all 
+   	   it's indices with value '0'.
+       (m = size of String s and n = size of String t)
+  
+   note1 - array rowSize and columnSize are taken as (m + '1') and (n + '1') respectively in order to create one
+   extra row and one extra column in order to dodge the 'ArrayIndexOutOfBoundsException' which is certain to get 
+   triggered if we take the respective values as just 'm' and 'n' only! (watch 4. MinCost Memoization @00:09:33 for more clarity)
+   
+   note2 - instead of incrementing the rowSize and columnSize with 1, we could have written separate lines of code to
+   keep a check that the recursive function call, does not inflict 'ArrayIndexOutOfBoundsException' error. Hence, the programmar could
+   chose any of the 2 above mentioned ways to dodge the 'ArrayIndexOutOfBoundsException' error.
+   
+   
+   2. Now, in this dp[][] matrix, we start traversing from the last cell, backwards till the [0,0] index. (line 433 & 434)
+      
+      Now, the logic used between lines 435 to 439 is :
+      	
+        logic - 
+           2.1  if the first char of both Strings is same, then for the current [i][j]th index od dp[][] matrix,
+        			 add 1 and the value in [i + 1][j + 1]th index of dp[][] matrix and store in the current index; i.e.,
+        
+                                            if(s.charAt(i) == t.charAt(j)){
+                                                dp[i][j] = 1 + dp[i + 1][j + 1];
+                                            }
+        
+       
+           2.2 if the char of both Strings is not same, then store the required value in the current index
+                in "seesaw mannner" ('''my lingo XD'''); meaning that, first, include 'all chars of the first string' and
+                'all chars of second string except the present char'; 
+                secondly, include 'all chars of first string except the present char' and 'all chars of the second string'. Then take the
+                max of these two (line 62). 
+                
+                In simple words, take the max of dp[i][j + 1] value and dp[i + 1][j] value and store it in the current index; i.e.,
+                
+                							else{   //if the char of both Strings is not same
+                    							dp[i][j] = Math.max(dp[i][j + 1], dp[i + 1][j]);
+                							}
+          
+          
+  3. we return dp[0][0] meaning that the [0][0]th index of the dp[][] matrix stores the desired output.
+*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
