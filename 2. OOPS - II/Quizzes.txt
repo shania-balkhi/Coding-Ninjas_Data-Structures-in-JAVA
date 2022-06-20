@@ -267,3 +267,19 @@ This problem has only one correct answer
 Ans. (c) Honda ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q11. Correct Option
+
+Select option for access modifiers in increasing order of their visibility.
+
+Options
+This problem has only one correct answer
+(a) Private, Protected, Default, Public
+(b) Protected, Private, Default, Public
+(c) Private, Default, Protected, Public 
+(d) Private, Default, Public, Protected
+
+Ans. (c) Private, Default, Protected, Public ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
