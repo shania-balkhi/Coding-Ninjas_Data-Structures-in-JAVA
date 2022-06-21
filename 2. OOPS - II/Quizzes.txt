@@ -283,3 +283,64 @@ Ans. (c) Private, Default, Protected, Public ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+Q12. Correct Option
+
+The following class Vehicle, declares a protected variable name, inside package p1:
+package p1;
+
+public class Vehicle {
+    protected String name;
+}
+
+
+Which of the following code(s) will give error?
+
+
+A. 
+package p1;
+
+public class Car {
+    void props() {
+        Vehicle v = new Vehicle();
+        v.name = "Vehicle 1st";      
+    }
+}
+
+
+B. 
+package p2;
+
+class Car extends Vehicle {
+    public static void main(String args[]) {
+        Car c = new Car();
+        c.name = "Ferrari";
+    }
+}
+
+
+C. 
+package p2;
+
+import p1.Vehicle;
+class Car {
+    void props() {
+        Vehicle v = new Vehicle();
+        v.name = "BMW";
+    }
+}
+
+
+Options
+This problem may have one or more correct answers
+(a) A
+(b) B 
+(c) C 
+(d) None
+
+Ans. (b) B  ✓
+     (c) C  ✓
+     
+Solution Description
+Please refer to this video: https://www.youtube.com/watch?v=zCKlaA6So3A, to understand the solution.
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
