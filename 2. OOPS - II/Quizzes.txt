@@ -344,3 +344,32 @@ Solution Description
 Please refer to this video: https://www.youtube.com/watch?v=zCKlaA6So3A, to understand the solution.
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q13. Predict the output
+
+What will be the output of the following code?
+class Vehicle 
+{ 
+    int maxSpeed = 120; 
+} 
+class Car extends Vehicle 
+{ 
+    int maxSpeed = 180; 
+    void display() 
+    { 
+        System.out.println(super.maxSpeed); 
+    } 
+} 
+class Test 
+{ 
+    public static void main(String[] args) 
+    { 
+        Car c = new Car(); 
+        c.display(); 
+    } 
+} 
+
+Type your answer here
+Ans. 120 ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
