@@ -447,3 +447,40 @@ This problem has only one correct answer
 Ans. (d) Compilation error ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q16. What is the output
+
+What Is The Output
+All classes are in same package.
+class Car {
+    private int seats;
+    private int speed;
+
+    public Car() {
+    System.out.print("This Is Car ");
+    }
+}
+
+class Audi extends Car {
+    Audi() {
+    System.out.print("This Is Audi ");
+    super();
+    }
+} 
+
+class Main {
+    public static void main(String args[]) {
+    Audi a = new Audi();
+    }         
+}
+
+Options
+This problem has only one correct answer
+(a) This Is Car This Is Audi
+(b) This Is Audi This Is Car
+(c) Compilation Error 
+(d) Runtime Error
+
+Ans. (c) Compilation Error ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
