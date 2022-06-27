@@ -521,3 +521,24 @@ Type your answer here
 Ans. his Is Car This Is Para Audi This Is Def Audi ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q18. Correct Statement
+
+Select the valid statement(s) on the basis of following code.
+Both classes are in same package.
+class Vehicle {}
+class Car extends Vehicle {}
+
+Options
+This problem may have one or more correct answers
+(a) Vehicle obj = new Vehicle(); 
+(b) Vehicle obj = new Car(); 
+(c) Car obj = new Car(); 
+(d) Car obj = new Vehicle();
+
+Ans. (a) Vehicle obj = new Vehicle(); ✓
+     (b) Vehicle obj = new Car(); ✓ 
+     (c) Car obj = new Car(); ✓
+     
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
