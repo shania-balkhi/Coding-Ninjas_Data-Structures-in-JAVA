@@ -571,3 +571,45 @@ Type your answer here
 Ans. Car class Vehicle class ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q20. Predict the output
+
+What will be the output of the following code?
+class Vehicle{
+    String colour;
+    private int number;
+    void print()
+    {
+        System.out.println("vehicle");
+    }
+}
+
+class Car extends Vehicle{
+    void print()
+    {
+        System.out.println("car");
+    }
+}
+class Honda extends Car{
+    void print()
+    {
+        System.out.println("Honda");
+    }
+}
+class buy_car{
+    public static void main (String[] args) {
+        Car c=new Honda();
+        c.print();
+    }
+}
+
+Options
+This problem has only one correct answer
+(a) vehicle
+(b) car
+(c) Honda 
+(d) error
+
+Ans. (c) Honda ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
