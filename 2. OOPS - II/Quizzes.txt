@@ -662,3 +662,29 @@ This problem has only one correct answer
 Ans. (a) 1 ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q22. Predict the output
+
+What will be the output of the following code?
+class ThrowsExecp { 
+static void fun() throws Exception 
+{ 
+    throw new Exception(); 
+} 
+public static void main(String args[]) 
+{   
+    try { 
+        fun(); 
+    } 
+    catch (Exception e) { 
+        System.out.print("caught in main."); 
+    }
+    System.out.print("All is well"); 
+} 
+} 
+
+Type your answer here
+Ans. caught in main.All is well ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
