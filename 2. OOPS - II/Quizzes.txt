@@ -688,3 +688,28 @@ Ans. caught in main.All is well ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+Q23. What is the output
+
+Select the output of the following program
+class A{
+    public static void main(String[] args){
+
+    try{
+        return;
+    }
+    finally{
+        System.out.println("Hello coding ninjas");
+    }
+  }
+}
+
+Options
+This problem has only one correct answer
+(a) No output
+(b) Exception if thrown at run time
+(c) Compile time error
+(d) Hello coding ninjas 
+
+Ans. (d) Hello coding ninjas ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
