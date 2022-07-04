@@ -745,3 +745,18 @@ This problem has only one correct answer
 Ans. (c) Compile time error ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q25. Valid Statement
+
+Select the correct statement -
+
+Options
+This problem has only one correct answer
+(a) The ‘try’ block should be followed by a ‘catch’ block.
+(b) The ‘try’ block should be followed by a ‘finally’ block.
+(c) The ‘try’ block should be followed by either a ‘catch’ block or a ‘finally’ block. 
+(d) can write independent try block
+
+Ans. (c) The ‘try’ block should be followed by either a ‘catch’ block or a ‘finally’ block.  ✓
+
+/*-------------------------------------------------------------------------------END---------------------------------------------------------------------------------*/
