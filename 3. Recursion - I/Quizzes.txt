@@ -25,4 +25,33 @@ Ans. (b) Runtime Error - StackOverflowException
 Solution Description
 ####Since the base case is missing in the code, therefore there will be infinite recursion calls and hence StackOverflowError.
 
-/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q2. What is the output
+
+What will be the output ?
+Class Recursion{
+    public static void print(int n){
+    if(n < 0){
+        return;
+    }
+    System.out.print(n+" ");
+    print(n - 2);
+    }
+
+    public static void main(String[] args) {
+    int num = 5;
+    print(num);
+    }
+}
+
+Options
+This problem has only one correct answer
+(a) StackOverflowException
+(b) 5 4 3 2 1
+(c) 5 3 1 
+(d) None of these
+
+Ans. (c) 5 3 1
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
