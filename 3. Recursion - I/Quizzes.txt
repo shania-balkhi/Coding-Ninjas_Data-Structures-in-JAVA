@@ -20,7 +20,7 @@ This problem has only one correct answer
 (c) 5
 (d) None of these
 
-Ans. (b) Runtime Error - StackOverflowException
+Ans. (b) Runtime Error - StackOverflowException ✓
 
 Solution Description
 ####Since the base case is missing in the code, therefore there will be infinite recursion calls and hence StackOverflowError.
@@ -52,6 +52,40 @@ This problem has only one correct answer
 (c) 5 3 1 
 (d) None of these
 
-Ans. (c) 5 3 1
+Ans. (c) 5 3 1 ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q3. What is the output
+
+What will be the output of the following code ?
+public static void print(int n){
+    if(n < 0){
+        return;
+    }
+    if(n == 0){
+        System.out.println(n);
+        return;
+    }
+    print(n--);
+    System.out.print(n+" ");
+}
+
+public static void main(String[] args) {
+    int num = 3;
+    print(num);
+}
+
+Options
+This problem has only one correct answer
+(a) 3 2 1
+(b) StackOverflowException 
+(c) 3 3 3
+(d) 0 1 2 3
+
+Ans. (b) StackOverflowException ✓
+
+Solution Description
+####In function print when recursion call is being made,  n-- is being passed as input. Here we are using post decrement operator, so argument passed to next function call is n and not n - 1. Thus there will be infinite recursion calls and StackOverflow excep
+
+/*-----------------------------------------------------------------------------END-----------------------------------------------------------------------------------*/
