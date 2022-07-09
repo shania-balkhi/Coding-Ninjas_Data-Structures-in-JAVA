@@ -125,3 +125,40 @@ public class Solution {
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+//code 3
+//tabulation
+public class Solution {
+
+	public static int knapsack(int[] weights, int[] values, int n, int maxWeight) {
+		
+        int[][] dp = new int[n + 1][maxWeight + 1];
+        
+        for(int i = dp.length - 2; i >= 0; --i){
+            for(int j = 0; j <= dp[i].length - 1; ++j){
+                
+                if (weights[i] > j){
+                    
+                    dp[i][j] = dp[i + 1][j];
+                    
+                }else{
+                    
+                    int ans1, ans2;
+                    ans1 = dp[i + 1][j];                          //exclude  
+                    ans2 = values[i] + dp[i + 1][j - weights[i]];  //include
+                    
+                    dp[i][j] = Math.max(ans1, ans2);    
+                        
+                }
+                
+                
+            }
+        }
+        
+        return dp[0][dp[0].length - 1];
+        
+	}
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
