@@ -1,0 +1,14 @@
+MCQs
+
+Q1. Complexity
+
+Which complexity of an algorithm quantifies the amount of memory taken by an algorithm.
+
+Options
+This problem has only one correct answer
+(a) Time complexity
+(b) Space complexity
+
+Ans. (b) Space complexity ✓
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
