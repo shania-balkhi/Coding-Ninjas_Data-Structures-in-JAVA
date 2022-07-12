@@ -34,3 +34,25 @@ This problem has only one correct answer
 Ans. (a) k1+k2(n) ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q3. Number of operations
+
+What are the number of operations for the following function?
+public static void func(int n)
+{
+    int sum=0;
+    for(int i=1;i<n*n;i++)
+        sum+=i;
+    System.out.println(sum);
+}
+
+Options
+This problem has only one correct answer
+(a) k1+k2(n)
+(b) k1+k2(logn)
+(c) k1+k2(n^2) 
+(d) k1(n)+k2(logn)
+
+Ans. (c) k1+k2(n^2) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
