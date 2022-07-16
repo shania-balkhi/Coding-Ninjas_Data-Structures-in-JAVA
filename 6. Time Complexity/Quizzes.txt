@@ -128,3 +128,30 @@ This problem has only one correct answer
 Ans. (d) A->2 B->3 C->1 ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q7. Time complexity of a code
+
+What will be the Time Complexity of following code in terms of ‘n’ ?
+public static void func(int n)
+{
+    int sum=0;
+    for(int i=1;i<n;i++)
+        {
+            for(int j=1;j<=i;j++)
+            {
+                sum+=i;
+            }
+        }
+    System.out.println(sum);
+}
+
+Options
+This problem has only one correct answer
+(a) O(n)
+(b) O(n^2) 
+(c) O(nlogn)
+(d) O(n^3)
+
+Ans. (b) O(n^2)  ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
