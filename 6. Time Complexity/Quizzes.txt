@@ -155,3 +155,27 @@ This problem has only one correct answer
 Ans. (b) O(n^2)  ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q8. Time complexity of a code
+
+What will be the Time Complexity of following code in terms of ‘n’ ?
+public static void func(int n)
+{
+    int sum=0;
+    for(int i=1;i<n;i*=2)
+        {
+                sum+=i;  
+        }
+    System.out.println(sum);
+}
+
+Options
+This problem has only one correct answer
+(a) O(log n(base 2)) 
+(b) O(n)
+(c) O(ln(n))
+(d) O(n^2)
+
+Ans. (a) O(log n(base 2)) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
