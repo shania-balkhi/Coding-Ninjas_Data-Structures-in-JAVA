@@ -179,3 +179,19 @@ This problem has only one correct answer
 Ans. (a) O(log n(base 2)) ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q9. Merging two Sorted arrays
+
+What is the time complexity for merging two sorted arrays?
+size of arrays are n and m.
+
+Options
+This problem has only one correct answer
+(a) O(n*m)
+(b) O(n+m) 
+(c) O(n)
+(d) O(m)
+
+Ans. (b) O(n+m) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
