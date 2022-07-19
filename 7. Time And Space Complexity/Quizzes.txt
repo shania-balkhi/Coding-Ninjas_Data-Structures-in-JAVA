@@ -1,0 +1,16 @@
+MCQs
+
+Q1. Recurrence for Merge Sort
+
+What is the recurrence relation for merge sort :
+
+Options
+This problem has only one correct answer
+(a) T(n) = 2T(n/2)
+(b) T(n) = 2T(n/2) + k
+(c) T(n) = 2T(n/2) + O(n) 
+(d) T(n) = 2T(n/2) + O(log n)
+
+Ans. (c) T(n) = 2T(n/2) + O(n) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
