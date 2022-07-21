@@ -32,3 +32,23 @@ Solution Description
 The time complexity of the Merge Sort is θ(nLogn) in all 3 cases (worst, average, and best) as the merge sort always divides the array into two halves and takes linear time to merge two halves.
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q3. What is time complexity
+
+What is the time complexity of following code ?
+int multiplyRec(int m, int n){
+    if(n == 1)
+        return m;
+    return m + multiplyRec(m,  n - 1);  
+}
+
+Options
+This problem has only one correct answer
+(a) O(m*n)
+(b) O(n) 
+(c) O(n^2)
+(d) O(m)
+
+Ans. (b) O(n) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
