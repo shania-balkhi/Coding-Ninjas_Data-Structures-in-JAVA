@@ -53,5 +53,25 @@ Ans. (b) O(n) ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-Q4.
-Q5.
+Q4. What is time complexity
+
+What is the time complexity of following code ?
+int sumOfDigits(int n){
+        int sum;
+        if(n < 10){
+            return n;
+        }
+        sum = (n % 10) + sumOfDigits(n / 10);
+        return sum;
+}
+
+Options
+This problem has only one correct answer
+(a) O(logn) - log is to the base 10 
+(b) O(n)
+(c) O(n^2)
+(d) None of these
+
+Ans. (a) O(logn) - log is to the base 10 ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
