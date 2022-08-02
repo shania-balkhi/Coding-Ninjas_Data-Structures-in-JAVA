@@ -111,3 +111,19 @@ This problem has only one correct answer
 Ans. (a) O(n) ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q7. Fibonacci
+
+The space complexity for finding nth fibonacci number using recursion is :
+
+Options
+This problem has only one correct answer
+(a) O(n) 
+(b) O(2^n)
+(c) O(log n)
+(d) O(n^2)
+(e) O(nlogn)
+
+Ans. (a) O(n) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
