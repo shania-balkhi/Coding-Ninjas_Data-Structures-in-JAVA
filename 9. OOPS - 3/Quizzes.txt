@@ -1,0 +1,15 @@
+MCQs
+
+Q1. Final constructor
+
+Can we declare constructors as final?
+
+Options
+This problem has only one correct answer
+(a) Yes
+(b) No
+
+Ans. (b) No ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
