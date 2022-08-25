@@ -13,3 +13,32 @@ Ans. (b) No ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+Q2. What is the output
+
+class Base {
+    public final void show() {
+        System.out.println("Base show");
+    }
+}
+class Derived extends Base {
+    public void show() { 
+        System.out.println("Derived show");
+    }
+}
+public class Solution {
+    public static void main(String[] args) {
+        Base b = new Derived();
+        b.show();
+    }
+}
+
+Options
+This problem has only one correct answer
+(a) Base show
+(b) Derived show
+(c) Compilation error
+(d) None
+
+Ans. (c) Compilation error ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
