@@ -43,4 +43,17 @@ Ans. (c) Compilation error ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-Q3. 
+Q3. Prevent inheritance
+
+Which of these keywords can be used to prevent inheritance of a class?
+
+Options
+This problem has only one correct answer
+(a) super
+(b) final
+(c) constant
+(d) none
+
+Ans. (b) final ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
