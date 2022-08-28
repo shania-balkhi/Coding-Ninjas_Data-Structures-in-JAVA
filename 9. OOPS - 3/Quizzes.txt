@@ -57,3 +57,18 @@ This problem has only one correct answer
 Ans. (b) final ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q4. Final class
+
+Final class means -
+
+Options
+This problem has only one correct answer
+(a) It cannot have non-final members
+(b) It cannot be extended
+(c) Its objects cannot be created
+(d) All
+
+Ans. (b) It cannot be extended ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
