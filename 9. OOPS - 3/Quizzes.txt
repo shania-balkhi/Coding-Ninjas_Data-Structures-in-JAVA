@@ -72,3 +72,35 @@ This problem has only one correct answer
 Ans. (b) It cannot be extended ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q5. What is the output
+
+abstract class A {
+    int i;
+    abstract void display();
+}   
+class B extends A {
+    int j;
+    void display() {
+        System.out.println(j);
+    }
+}   
+class Main {
+    public static void main(String args[])
+    {
+        B obj = new B();
+        obj.j=2;
+        obj.display();   
+    }
+}
+
+Options
+This problem has only one correct answer
+(a) 0
+(b) 2
+(c) Compilation Error
+(d) Runtime Error
+
+Ans. (b) 2 ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
