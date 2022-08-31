@@ -122,3 +122,18 @@ This problem has only one correct answer
 Ans. (d) Class Student must be defined abstract. ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q7. Abstract method
+
+Which of the following declares an abstract method in an abstract Java class?
+
+Options
+This problem has only one correct answer
+(a) public abstract method();
+(b) public abstract void method();
+(c) public void abstract Method();
+(d) public void method() {}
+
+Ans. (b) public abstract void method(); ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
