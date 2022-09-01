@@ -137,3 +137,18 @@ This problem has only one correct answer
 Ans. (b) public abstract void method(); ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q8. Incorrect Statement
+
+Which one of the following is not true?
+
+Options
+This problem has only one correct answer
+(a) A class containing abstract methods is called an abstract class.
+(b) Abstract methods should be implemented in the non-abstract derived class.
+(c) An abstract class cannot have non-abstract methods
+(d) None of the above.
+
+Ans. (c) An abstract class cannot have non-abstract methods ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
