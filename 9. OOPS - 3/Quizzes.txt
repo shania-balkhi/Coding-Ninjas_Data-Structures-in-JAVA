@@ -152,3 +152,34 @@ This problem has only one correct answer
 Ans. (c) An abstract class cannot have non-abstract methods ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q9. What is the output
+
+interface calculate {
+    void cal(int item);
+}
+class display implements calculate {
+    int x;
+    public void cal(int item) {
+        x = item * item;           
+    }
+}
+class Solution {
+    public static void main(String args[]) {
+        display arr = new display();
+        arr.x = 0;     
+        arr.cal(2);
+        System.out.print(arr.x);
+    }
+}
+
+Options
+This problem has only one correct answer
+(a) 0
+(b) 2
+(c) 4
+(d) None
+
+Ans. (c) 4 ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
