@@ -280,4 +280,17 @@ Ans. (c) 4 ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-Q14.
+Q14. Interface
+
+Which of the following is a correct interface?
+
+Options
+This problem has only one correct answer
+(a) interface A { void print() { } }
+(b) abstract interface A { print(); }
+(c) abstract interface A { abstract void print(); { }}
+(d) interface A { void print(); }
+
+Ans. (d) interface A { void print(); } ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
