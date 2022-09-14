@@ -294,3 +294,37 @@ This problem has only one correct answer
 Ans. (d) interface A { void print(); } ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q15. What is the output
+
+interface A{
+    public void method();
+}
+class One{
+    public void method(){
+        System.out.println("Class One method");
+    }
+}
+class Two extends One implements A{
+    public void method(){
+        System.out.println("Class Two method");
+    }
+}
+public class Solution extends Two{
+    public static void main(String[] args){
+        A a = new Two();
+        a.method();     
+    }
+}
+
+Options
+This problem has only one correct answer
+(a) will print Class One method
+(b) will print Class Two method
+(c) compiles fine but print nothing
+(d) Compilation Error
+(e) None
+
+Ans. (b) will print Class Two method ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
