@@ -328,3 +328,19 @@ This problem has only one correct answer
 Ans. (b) will print Class Two method ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q16. Invalid statement
+
+Which of the following is not true?
+
+Options
+This problem has only one correct answer
+(a) An interface can extend another interface.
+(b) A non-abstract class which is implementing an interface must implement all the methods of the interface.
+(c) An interface can implement another interface.
+(d) An interface is a solution for multiple inheritance in java.
+(e) None
+
+Ans. c) An interface can implement another interface. ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
