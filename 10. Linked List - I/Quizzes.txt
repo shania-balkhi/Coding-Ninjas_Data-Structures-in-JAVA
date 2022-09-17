@@ -1,0 +1,16 @@
+MCQs
+
+Q1. Collection Class For Dynamic Array
+
+Which of these standard collection classes implements a dynamic array?
+
+Options
+This problem has only one correct answer
+(a) AbstractList
+(b) AbstractSet
+(c) Arraylist
+(d) ArrayList
+
+Ans. (d) ArrayList ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
