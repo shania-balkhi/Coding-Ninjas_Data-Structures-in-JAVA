@@ -14,3 +14,18 @@ This problem has only one correct answer
 Ans. (d) ArrayList ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q2. Size Of ArrayList
+
+Which of these method of ArrayList class is used to obtain present size of an ArrayList object?
+
+Options
+This problem has only one correct answer
+(a) length()
+(b) size()
+(c) capacity()
+(d) index()
+
+Ans. (b) size() ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
