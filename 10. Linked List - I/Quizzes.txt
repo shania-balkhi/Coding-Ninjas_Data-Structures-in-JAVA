@@ -29,3 +29,18 @@ This problem has only one correct answer
 Ans. (b) size() ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q3. ArrayList Of Integers
+
+Which of the following declarations would be correct for a list that will contain Integers?
+
+Options
+This problem has only one correct answer
+(a) ArrayList<String> list = new ArrayList<String>() ;
+(b) ArrayList<int> list = new ArrayList<int>() ;
+(c) ArrayList list = new ArrayList() ;
+(d) ArrayList<Integer> list = new ArrayList<Integer>() ;
+
+Ans. (d) ArrayList<Integer> list = new ArrayList<Integer>() ; ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
