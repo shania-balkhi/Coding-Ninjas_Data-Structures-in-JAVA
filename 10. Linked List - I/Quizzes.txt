@@ -59,5 +59,26 @@ Ans. banana ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-Q4.
+Q4. Figure Out Correct Statement
+
+Consider the following code:
+ArrayList<String> list = new ArrayList<String>() ;
+list.add( "Ant" );
+list.add( "Bat" );
+list.add( "Car" );
+list.add( "Door" );
+list.add( "Euro" );
+Which of the following statements will replace the element "Car" with "Bus" ?
+
+Options
+This problem has only one correct answer
+(a) list[2] = "Bus" ;
+(b) list.add( "Bus", list.indexOf("Car") );
+(c) list.set( 2, "Bus" );
+(d) list.set( "Bus", "Car" );
+
+Ans. (c) list.set( 2, "Bus" ); ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 
