@@ -81,4 +81,18 @@ Ans. (c) list.set( 2, "Bus" ); ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+Q5. Linked List Use Case
+
+Linked List are best suited:
+
+Options
+This problem has only one correct answer
+(a) for relatively permanent collections of data.
+(b) for the size of the structure is constantly changing.
+(c) for random Access of elements
+(d) None of these
+
+Ans. (b) for the size of the structure is constantly changing. ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
