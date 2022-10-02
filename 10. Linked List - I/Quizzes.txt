@@ -240,3 +240,18 @@ This problem has only one correct answer
 Ans. (b) 11 21 ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q9. Search In LL
+
+What will be the time complexity of searching an element in the linked list ?
+
+Options
+This problem has only one correct answer
+(a) O(1)
+(b) O(n)
+(c) O(nlogn)
+(d) O(n^2)
+
+Ans. (b) O(n) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
