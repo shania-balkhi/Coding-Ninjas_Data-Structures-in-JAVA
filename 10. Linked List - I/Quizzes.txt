@@ -255,3 +255,19 @@ This problem has only one correct answer
 Ans. (b) O(n) ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q10. Add element at last
+
+Consider the Singly linked list having n elements. What will be the time taken to add an node at the end of linked list if is initially pointing to first node of the list.
+That is only head is given to you.
+
+Options
+This problem has only one correct answer
+(a) O(n)
+(b) O(1)
+(c) O(nlogn)
+(d) O(n^2)
+
+Ans. (a) O(n) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
