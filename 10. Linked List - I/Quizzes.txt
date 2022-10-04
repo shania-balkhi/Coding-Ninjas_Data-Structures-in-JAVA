@@ -271,3 +271,19 @@ This problem has only one correct answer
 Ans. (a) O(n) ✓
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q11. Insert At 2nd Position
+
+There is reference (or pointer) to first Node of the Linked List, then time required to insert element to second position is __________.
+Indexing starts from 0.
+
+Options
+This problem has only one correct answer
+(a) O(1)
+(b) O(n)
+(c) O(nlogn)
+(d) O(n^2)
+
+Ans. (a) O(1) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
