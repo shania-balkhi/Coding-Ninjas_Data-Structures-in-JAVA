@@ -1,0 +1,27 @@
+MCQs
+
+Q1. Correct Output
+Send Feedback
+What does the following function do?
+void fun(Node head)
+{
+  if(head == null)
+    return;
+
+   fun(head.next);
+   System.out.print( head.data);
+}
+
+Options
+This problem has only one correct answer
+(a) Print all Nodes of Linked List
+(b) Print all Nodes of Linked List in reverse order
+(c) Print alternate Nodes of Linked list
+(d) Print alternate Nodes of Linked list in reverse order
+
+Ans. (b) Print all Nodes of Linked List in reverse order ✓
+
+Solution Description
+fun() prints the given Linked List in reverse manner. For Linked List 1->2->3->4->5, fun() prints 5->4->3->2->1.
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
