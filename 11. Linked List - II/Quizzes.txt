@@ -24,4 +24,33 @@ Ans. (b) Print all Nodes of Linked List in reverse order ✓
 Solution Description
 fun() prints the given Linked List in reverse manner. For Linked List 1->2->3->4->5, fun() prints 5->4->3->2->1.
 
-/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q2. Correct Output
+
+What will be the correct output of the code, If the linked list is 1->2->3->4->5->6 and start stores the address of node 1.
+void fun(Node start)
+{
+  if(start == null)
+    return;
+  System.out.printf( start.data); 
+
+  if(start.next != null )
+    fun(start.next.next);
+  System.out.printf(start.data);
+}
+
+Options
+This problem has only one correct answer
+(a) 1 3 5
+(b) 1 2 4
+(c) 1 2 4 4 2 1
+(d) 1 3 5 5 3 1
+(e) Error
+
+Ans. (d) 1 3 5 5 3 1 ✓
+
+Solution Description
+fun() prints alternate nodes of the given Linked List, first from head to end, and then from end to head. If Linked List has even number of nodes, then skips the last node.
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
