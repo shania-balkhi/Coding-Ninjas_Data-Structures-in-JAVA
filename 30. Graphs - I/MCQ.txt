@@ -1,0 +1,266 @@
+MCQs
+
+Q1. Which of the following is true?
+
+Options
+This problem has only one correct answer
+
+(a) All graphs are trees.
+(b) All trees are graphs. 
+(c) All graphs are cyclic.
+(d) The number of edges in a graph is always more than number of vertices.
+
+Ans. (b) All trees are graphs. ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q2. Maximum Number of Edges - 
+What is the maximum number of edges in an undirected graph of 'V' Vertices?
+
+Options
+This problem has only one correct answer
+
+(a) V*(V-1)/2 
+(b) V
+(c) V^2
+(d) None of these
+
+Ans. (a) V*(V-1)/2 ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q3. Graph Problem-1
+
+A graph of 5 Vertices a,b,c,d,e is drawn and below are the adjacent vertices of each graph? Check if the graph is connected or not?
+Vertex       Adjacent Vertices
+   a                 b,c
+   b                 a,e
+   c                  a
+   d                  e
+   e                  a
+   
+Options
+This problem has only one correct answer
+
+(a) Connected 
+(b) Not Connected
+
+Ans. (a) Connected ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q4. Graph Problem-2
+
+A graph of 5 Vertices a,b,c,d,e is drawn and below are the adjacent vertices of each graph?Find the degree of vertex e?
+Vertex       Adjacent Vertices
+   a                 b,c
+   b                 a,e
+   c                 a,e
+   d                  e
+   e                 b,c,d
+  
+  
+Ans. 3 ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q5. Graph Problem-3
+
+A graph of 7 Vertices a,b,c,d,e,f,g is drawn and below are the adjacent vertices of each graph? Find the number of connected components
+Vertex       Adjacent Vertices
+   a                 b,c
+   b                 a,c
+   c                 a,b
+   d                 e,f
+   e                  d
+   f                   d
+   g      
+   
+Options
+This problem has only one correct answer
+(a) 1
+(b) 2
+(c) 3 
+(d) 4
+
+Ans. (c) 3 ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q6. Graph Problem-4
+
+What is the maximum number of vertices for which a graph is complete graph as well as a tree?
+
+Options
+This problem has only one correct answer
+1
+2 
+3
+4
+
+Ans. (b) 2 ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q7. Correct Statement
+
+Which of the following statement is true?
+A: The number of odd degree vertices in a graph is even.
+B: Sum of all degrees in a graph is even.
+
+Options
+This problem has only one correct answer
+(a) A
+(b) B
+(c) Both A and B 
+(d) Neither A nor B
+
+Ans. (c) Both A and B ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q8. Time complexity
+
+What is the time complexity of finding an edge between two vertices using adjacency matrix?
+n is number of vertices and E is number of edges.
+
+Options
+This problem has only one correct answer
+(a) O(n)
+(b) O(1) 
+(c) O(E)
+(d) O(n+E)
+
+Ans. (b) O(1) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q9. Space complexity
+
+What is the space complexity used in case of :
+i)  Edge List                     a) O(n+E)
+ii) Adjacency List                b) O(n^2)
+iii) Adjacency Matrix             c) O(n+2E)
+
+Options
+This problem has only one correct answer
+(a) i) - a), ii)- b) , iii)-c)
+(b) i) - b), ii)- c) , iii)-a)
+(c) i) - a), ii)- c) , iii)-b) 
+(d) i) - b), ii)- a) , iii)-c)
+
+Ans. (c) i) - a), ii)- c) , iii)-b) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+Q10. Traversal problem-1
+
+Depth First Search is equivalent to which of the traversal in the Binary Trees?
+
+Options
+This problem has only one correct answer
+(a) Pre-Order Traversal 
+(b) Post-Order Traversal
+(c) Level-Order Traversal
+(d) In-Order Traversal
+
+Ans. (a) Pre-Order Traversal ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q11. Traversal problem-2
+
+Given the adjacency matrix.
+    a  b  e  f  g  h 
+a   0  1  1  1  0  0
+b   1  0  1  1  0  1  
+e   1  1  0  0  1  0
+f   1  1  0  0  1  1  
+g   0  0  1  1  0  1 
+h   0  1  0  1  1  0
+
+Among the following sequences:
+
+(I) a b e g h f 
+(II) a b f e h g
+(III) a b f h g e 
+(IV) a f g h b e  
+Which are depth first traversals of the above graph?
+
+Options
+This problem has only one correct answer
+(a) I, II and IV
+(b) I, III and IV 
+(c) I and IV
+(d) II, III and IV
+
+Ans. (b) I, III and IV ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q12. Traversal problem-3
+
+Given the adjacency matrix.
+    a  b  e  f  g  h 
+a   0  1  1  1  0  0
+b   1  0  1  1  0  1  
+e   1  1  0  0  1  0
+f   1  1  0  0  1  1  
+g   0  0  1  1  0  1 
+h   0  1  0  1  1  0
+Which of the following can be correct Breadth First Traversal?
+
+Options
+This problem has only one correct answer
+(a) a b e f h g 
+(b) a e h g b f
+(c) a b h b f g
+(d) a b g h f h
+
+Ans. (a) a b e f h g ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q13. Traversal problem-4
+
+Which of the following data structure is used in breadth first traversal?
+
+Options
+This problem has only one correct answer
+(a) Stack
+(b) Queue 
+(c) Linked List
+(d) Tree
+
+Ans. (b) Queue ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q14. Time complexity
+
+What is the time complexity of DFS and BFS using
+a) adjacency matrix          i) O(V^2)
+b) adjacency list           ii) O(V+2*E)
+
+Options
+This problem has only one correct answer
+(a) i) - a) and ii) - b) 
+(b) i) - b) and ii) - a)
+
+Ans. (a) i) - a) and ii) - b) ✓
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q15. Shortest Path
+
+Which traversal is used to find the shortest path between two vertices?
+
+Options
+This problem has only one correct answer
+(a) Breadth First Traversal 
+(b) Depth First Traversal
+(c) Both
+
+Ans. (a) Breadth First Traversal ✓
+
+/*------------------------------------------------------------------------------END----------------------------------------------------------------------------------*/
