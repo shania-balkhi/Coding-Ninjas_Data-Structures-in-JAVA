@@ -54,3 +54,18 @@ Solution Description
 fun() prints alternate nodes of the given Linked List, first from head to end, and then from end to head. If Linked List has even number of nodes, then skips the last node.
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q3. Traversal
+
+In doubly linked lists, traversal can be done in ?
+
+Options
+This problem has only one correct answer
+(a) Only forward direction
+(b) Only reverse direction
+(c) Both directions
+(d) None of the above
+
+Ans. (c) Both directions ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
