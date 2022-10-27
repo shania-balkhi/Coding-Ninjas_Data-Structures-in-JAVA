@@ -69,3 +69,22 @@ This problem has only one correct answer
 Ans. (c) Both directions ✓
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q4. Doubly LL
+
+Given an unsorted doubly Linked List, suppose you have references (or pointer) to its head and tail nodes, which of the following operation can be implemented in O(1) time ?
+i) Insertion at the front of the linked list
+ii) Insertion at the end of the linked list
+iii) Deletion of the last node of the linked list
+iv) Deletion of the front node of the linked list
+
+Options
+This problem has only one correct answer
+(a) I and II
+(b) I and III
+(c) I,II and III
+(d) I,II, III and IV
+
+Ans. (d) I,II, III and IV ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
