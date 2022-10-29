@@ -107,3 +107,18 @@ This problem has only one correct answer
 Ans. (d) None ✓
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q6. Time Complexity
+
+What are the time complexities of finding 6th element from beginning and 6th element from end in a singly linked list? Let n be the number of nodes in linked list, you may assume that n > 7.
+
+Options
+This problem has only one correct answer
+(a) O(1) and O(n)
+(b) O(n) and O(n)
+(c) O(1) and O(1)
+(d) O(n) and O(1)
+
+Ans. (a) O(1) and O(n) ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
