@@ -122,3 +122,21 @@ This problem has only one correct answer
 Ans. (a) O(1) and O(n) ✓
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q7. Concat Linked List
+
+The concatenation of two lists is to be performed in O(1) time. Which of the following implementations of a list should be used?
+
+Options
+This problem has only one correct answer
+(a) Singly Linked List
+(b) Doubly Linked List
+(c) Circular Doubly Linked List
+(d) Circular Linked List
+
+Ans. (c) Circular Doubly Linked List ✓
+
+Solution Description
+Singly-linked list cannot be answer because we cannot find last element of a singly linked list in O(1) time. Doubly linked list and Circular Linked List cannot also not be answer because of the same reason as singly linked list.
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
