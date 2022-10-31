@@ -140,3 +140,22 @@ Solution Description
 Singly-linked list cannot be answer because we cannot find last element of a singly linked list in O(1) time. Doubly linked list and Circular Linked List cannot also not be answer because of the same reason as singly linked list.
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q8. Circular Doubly LL
+
+Given an unsorted circular doubly linked list, suppose you have reference (or pointer) to its head node only, which of the following operation can be implemented in O(1) time?
+i) Insertion at the front of the linked list
+ii) Insertion at the end of the linked list
+iii) Deletion of the last node of the linked list
+iv) Deletion of the front node of the linked list
+
+Options
+This problem has only one correct answer
+(a) I and II
+(b) I,II and III
+(c) I,II,III and IV
+(d) None
+
+Ans. (c) I,II,III and IV ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
