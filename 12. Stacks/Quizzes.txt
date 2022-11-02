@@ -16,3 +16,16 @@ This problem has only one correct answer
 Ans. (b) 3 ✓
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q2. Stack
+
+What method is used in implementation of stacks?
+
+Options
+This problem has only one correct answer
+(a) First in First out
+(b) Last in First out
+
+Ans. (b) Last in First out ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
