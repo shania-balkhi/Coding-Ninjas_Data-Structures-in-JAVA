@@ -75,4 +75,19 @@ Ans. (d) int ✓
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-Q6.
+Q6. Correct Statement
+
+Which of the following statement(s) about stack data structure is/are NOT correct?
+
+Options
+This problem may have one or more correct answers
+(a) Stack data structure can be implemented using linked list
+(b) New node can only be added at the top of the stack
+(c) Stack is the FIFO data structure 
+(d) New node can be added at both ends 
+
+Ans. (c) Stack is the FIFO data structure ✓
+     (d) New node can be added at both ends ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
