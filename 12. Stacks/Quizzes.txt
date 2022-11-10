@@ -91,3 +91,17 @@ Ans. (c) Stack is the FIFO data structure ✓
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+Q7. Stack Implementation
+
+Which of the following operation take worst case i.e. linear time (O(n)) in the array implementation of stack?
+
+Options
+This problem has only one correct answer
+(a) Push
+(b) Pop
+(c) IsEmpty
+(d) None
+
+Ans. (d) None ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
