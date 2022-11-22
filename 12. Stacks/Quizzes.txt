@@ -130,3 +130,20 @@ Ans. (c) StackFullException at line 8 ✓
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+Q9. Correct Statement
+
+What should be the sequence of push and pop to get the following output (pop means deleting and printing the deleted element) :
+5 4 6 
+
+Options
+This problem may have one or more correct answers
+(a) push(4) push(5) pop pop push(6) pop 
+(b) push(6) push(4) push(5) pop pop pop 
+(c) push(4) push(5) push(6) pop pop pop
+(d) push(5) pop push(4) pop push(6) pop
+
+Ans. (a) push(4) push(5) pop pop push(6) pop ✓
+     (b) push(6) push(4) push(5) pop pop pop ✓
+     (d) push(5) pop push(4) pop push(6) pop ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
