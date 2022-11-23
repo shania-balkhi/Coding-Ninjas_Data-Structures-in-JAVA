@@ -147,3 +147,29 @@ Ans. (a) push(4) push(5) pop pop push(6) pop ✓
      (d) push(5) pop push(4) pop push(6) pop ✓
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q10. Predict the output
+
+What would be the output for the following functions (pop and size means printing also).
+Note: No StackFullException occurs.
+
+push(1) 
+push(2)
+push(3)
+size()
+pop
+push(8)
+pop
+pop
+pop 
+
+Options
+This problem has only one correct answer
+(a) 3 8 3 2 1
+(b) 2 3 8 2 1
+(c) 3 3 8 2 1
+(d) 4 8 3 2 1
+
+Ans. (c) 3 3 8 2 1 ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
