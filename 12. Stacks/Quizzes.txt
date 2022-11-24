@@ -173,3 +173,19 @@ This problem has only one correct answer
 Ans. (c) 3 3 8 2 1 ✓
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q11. Double Stack
+
+If initially the size of array of stack is 3,and we need to input 34 elements. How many times the doublecapacity function would be called?
+
+Options
+This problem has only one correct answer
+(a) 3
+(b) 4
+(c) 5
+(d) 12
+(e) 11
+
+Ans. (b) 4 ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
