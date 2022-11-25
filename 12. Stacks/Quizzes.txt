@@ -189,3 +189,19 @@ This problem has only one correct answer
 Ans. (b) 4 ✓
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q12. Time complexity
+
+What is the time complexity of doublecapacity function of stack?
+(n is the size of previous array).
+
+Options
+This problem has only one correct answer
+(a) O(n)
+(b) O(1)
+(c) O(log(n))
+(d) O(n^2)
+
+Ans. (a) O(n) ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
