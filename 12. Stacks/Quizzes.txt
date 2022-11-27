@@ -205,3 +205,20 @@ This problem has only one correct answer
 Ans. (a) O(n) ✓
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q13. LL Stacks
+
+Which of the following is true about linked list implementation of stack?
+(A) In push operation, if new nodes are inserted at the beginning of linked list, then in pop operation, nodes must be removed from end.
+(B) In push operation, if new nodes are inserted at the end, then in pop operation, nodes must be removed from the beginning.
+
+Options
+This problem has only one correct answer
+(a) a
+(b) b
+(c) both a and b
+(d) None
+
+Ans. (d) None ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
