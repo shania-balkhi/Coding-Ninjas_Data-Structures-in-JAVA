@@ -222,3 +222,18 @@ This problem has only one correct answer
 Ans. (d) None ✓
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+Q14. Time complexity
+
+What would be the time complexity of the push and pop operations of the stack implemented using linked list (Assuming stack is implemented efficiently)?
+
+Options
+This problem has only one correct answer
+(a) O(1) for insertion and O(n) for deletion
+(b) O(1) for insertion and O(1) for deletion
+(c) O(n) for insertion and O(n) for deletion
+(d) O(n) for insertion and O(1) for deletion
+
+Ans. (b) O(1) for insertion and O(1) for deletion ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
