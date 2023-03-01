@@ -304,4 +304,29 @@ Ans. (c) 18 ✓
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-Q18.
+Q18. Predict the output
+
+What would be the output of the following code?
+import java.util.Stack;
+class Test {
+    public static void main (String[] args) {
+        Stack<Integer> stack=new Stack<Integer>();
+        while(stack.isEmpty())
+        {
+            stack.push(10);
+        }
+        System.out.print(stack.pop()+" "+stack.size());
+    }
+}
+
+Options
+This problem has only one correct answer
+(a) 10 1
+(b) 10 0
+(c) 0 0
+(d) Infinite loop
+
+Ans. (b) 10 0 ✓
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
