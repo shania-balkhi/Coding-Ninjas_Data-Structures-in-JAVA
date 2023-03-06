@@ -1,0 +1,14 @@
+Q1. Queue
+
+A queue is a ?
+
+Options
+This problem has only one correct answer
+(a) FIFO (First In First Out) list
+(b) LIFO (Last In First Out) list
+(c) Ordered array
+(d) Linear tree
+
+Ans. (a) FIFO (First In First Out) list
+
+******************************************************************************************************************
