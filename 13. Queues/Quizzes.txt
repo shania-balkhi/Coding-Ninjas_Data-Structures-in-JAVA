@@ -12,3 +12,18 @@ This problem has only one correct answer
 Ans. (a) FIFO (First In First Out) list
 
 ******************************************************************************************************************
+
+Q2. Correct Order
+
+If the elements “p”, “q”, “r” and “s” are placed in a queue and are deleted one at a time, in what order will they be removed?
+
+Options
+This problem has only one correct answer
+(a) srqp
+(b) pqrs
+(c) srpq
+(d) qrsp
+
+Ans. (b) pqrs
+
+******************************************************************************************************************
