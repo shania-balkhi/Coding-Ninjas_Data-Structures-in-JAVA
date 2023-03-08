@@ -27,3 +27,32 @@ This problem has only one correct answer
 Ans. (b) pqrs
 
 ******************************************************************************************************************
+
+Q3. Function
+
+Consider the following pseudo code. Assume that IntQueue is an integer queue. What does the function fun do?
+void fun(int n)
+{
+    IntQueue q = new IntQueue();
+    q.enqueue(0);
+    q.enqueue(1);
+    for (int i = 0; i < n; i++)
+    {
+        int a = q.dequeue();
+        int b = q.dequeue();
+        q.enqueue(b);
+        q.enqueue(a + b);
+        System.out.print(a);
+    }
+}
+
+Options
+This problem has only one correct answer
+(a) Print numbers 0 to n-1
+(b) Print numbers n-1 to 0
+(c) Print first n fibonacci numbers
+(d) Print first n fibonacci numbers in reverse
+
+Ans. (c) Print first n fibonacci numbers
+
+******************************************************************************************************************
