@@ -56,3 +56,38 @@ This problem has only one correct answer
 Ans. (c) Print first n fibonacci numbers
 
 ******************************************************************************************************************
+
+Q4. Queue Implementation
+
+Suppose you are given an implementation of a queue of integers. The operations that can be performed on the queue are:
+i. isEmpty (Q) — returns true if the queue is empty, false otherwise.
+
+ii. delete (Q) — deletes the element at the front of the queue and returns its value.
+
+iii. insert (Q, i) — inserts the integer i at the rear of the queue.
+Consider the following function:
+
+void f (queue Q) { 
+   int i ; 
+   if (!isEmpty(Q)) { 
+   i = delete(Q); 
+   f(Q); 
+   insert(Q, i); 
+   } 
+} 
+
+Options
+This problem has only one correct answer
+(a) Leaves the queue Q unchanged
+(b) Reverses the order of the elements in the queue Q
+(c) Deletes the element at the front of the queue Q and inserts it at the rear keeping the other elements in the same order
+(d) Empties the queue Q.
+
+Ans. (b) Reverses the order of the elements in the queue Q
+
+Solution Description
+As it is recursive call, and removing from front while inserting from end, that means last element will be deleted at last and will be inserted 1st in the new queue. And like that it will continue till first call executes insert(Q,i) function.
+So, the queue will be in reverse.
+
+******************************************************************************************************************
+
