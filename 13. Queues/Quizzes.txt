@@ -91,3 +91,17 @@ So, the queue will be in reverse.
 
 ******************************************************************************************************************
 
+Q5. Insert Element
+
+In optimized linked list implementation of a queue, where does a new element be inserted?
+
+Options
+This problem has only one correct answer
+(a) At the head of linked list
+(b) At the tail of the linked list
+(c) At the centre position in the linked list
+(d) None
+
+Ans. (b) At the tail of the linked list
+
+******************************************************************************************************************
