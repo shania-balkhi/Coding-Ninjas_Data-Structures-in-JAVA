@@ -105,3 +105,25 @@ This problem has only one correct answer
 Ans. (b) At the tail of the linked list
 
 ******************************************************************************************************************
+
+Q6. Size of Circular Queue
+
+If we have not maintained size variable in the circular queue(implemented using arrays) then how can we calculate the size of the queue.
+front: index of the front element.
+rear: index of the last element. 
+
+a) size = rear - front +1
+b) size = size of array - (front - rear) + 1
+Note: Please ignore the case when front and rear are equal to each other.
+
+Options
+This problem has only one correct answer
+(i) a)
+(ii) b)
+(iii) a) when rear is greater than front and b) when front is greater than rear.
+(iv) none
+
+Ans. (iii) a) when rear is greater than front and b) when front is greater than rear.
+
+******************************************************************************************************************
+
