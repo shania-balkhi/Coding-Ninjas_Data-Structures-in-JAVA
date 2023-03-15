@@ -127,3 +127,19 @@ Ans. (iii) a) when rear is greater than front and b) when front is greater than 
 
 ******************************************************************************************************************
 
+Q7. Time complexity
+
+What is the time complexity of performing doublecapacity function in case of queues?
+
+Options
+This problem has only one correct answer
+(a) O(n)
+(b) O(1)
+(c) O(log(n))
+(d) O(n^2)
+
+Ans. (a) O(n)
+
+******************************************************************************************************************
+
+
