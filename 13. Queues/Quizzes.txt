@@ -162,3 +162,17 @@ Solution Description
 
 ******************************************************************************************************************
 
+Q9. Stack and Queue
+
+The seven elements A, B, C, D, E, F and G are pushed onto a stack in reverse order, i.e., starting from G. The stack is popped four times and each element is inserted into a queue.Three elements are deleted from the queue and pushed back onto the stack. Now, two element are popped from the stack. Which element is at the top of the Stack ?
+
+Options
+This problem has only one correct answer
+(a) A
+(b) C
+(c) D
+(d) B
+
+Ans. (a) A
+
+******************************************************************************************************************
