@@ -176,3 +176,19 @@ This problem has only one correct answer
 Ans. (a) A
 
 ******************************************************************************************************************
+
+Q10. Worst case operation
+
+In linked list implementation of queue, if only front pointer is maintained, which of the following operation take worst case time (i.e. O(n) )?
+
+Options
+This problem has only one correct answer
+(a) Insertion from rear
+(b) Deletion from front
+(c) Both
+(d) None
+
+Ans. (a) Insertion from rear
+
+******************************************************************************************************************
+
