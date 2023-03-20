@@ -206,3 +206,24 @@ This problem has only one correct answer
 Ans. (c) Both front and rear pointer
 
 ******************************************************************************************************************
+
+Q12. Predict the output
+
+What would be the output of the following code?
+import java.util.LinkedList;
+import java.util.Queue;
+class Test {
+    public static void main (String[] args) {
+        Queue<Integer> q=new LinkedList<Integer>();
+        for(int i=1;i<5;i++)
+        {
+            q.add(10+i);
+        }
+        System.out.print(q.poll()+" "+q.size());
+    }
+}
+
+Answer
+11 3
+
+******************************************************************************************************************
