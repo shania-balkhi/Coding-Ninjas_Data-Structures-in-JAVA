@@ -250,3 +250,18 @@ Answer
 25
 
 ******************************************************************************************************************
+
+Q14. Queue to Stack
+
+What are the minimum number of queues required to make a Stack?
+
+Options
+This problem has only one correct answer
+(a) 1
+(b) 2
+(c) 3
+(d) Stack cannot be made using queues
+
+Ans. (b) 2
+
+******************************************************************************************************************
