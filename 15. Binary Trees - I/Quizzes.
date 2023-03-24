@@ -14,3 +14,32 @@ This problem has only one correct answer
 Ans. (c) 0 or 1 or 2
 
 ************************************************************************
+
+Input Binary Tree
+Send Feedback
+Consider the below code
+takeInput()
+    print("Enter root data")
+    rootData = int(input())
+    if (rootData == -1)
+        return None
+    root = BinaryTreeNode(rootData)
+    root.left = takeInput()
+    root.right = takeInput()
+    return root
+Alt text
+
+What will be the input(excluding -1) to above code to construct this tree ?
+ 1)  2 7 2 6 5 11 5 9 4 
+ 2)  2 7 5 6 11 2 5 4 9 
+ 3)  2 7 5 2 6 9 5 11 4
+ 
+ Options
+This problem has only one correct answer
+(a) 1
+(b) 2
+(c) 3
+
+Ans. (a) 1
+
+************************************************************************
