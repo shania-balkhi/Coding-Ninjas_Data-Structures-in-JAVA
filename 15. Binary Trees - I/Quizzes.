@@ -63,3 +63,20 @@ Ans. (b) 2
 
 ************************************************************************
 
+Q4. Height Of Tree
+
+The maximum and minimum number of nodes in a binary tree of height 6 are
+A tree with zero node has height 0.
+A tree with one node has height 1.
+
+Options
+This problem may have one or more correct answers
+(a) 63 and 6, respectively 
+(b) 64 and 5, respectively
+(c) 32 and 6, respectively
+(d) 31 and 5, respectively
+
+Ans. (a) 63 and 6, respectively 
+
+************************************************************************
+
