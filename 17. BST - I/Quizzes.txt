@@ -1,0 +1,13 @@
+Q1. IsBST?
+Send Feedback
+Is this a BST ?
+Alt text
+
+Options
+This problem has only one correct answer
+(a) Yes
+(b) No
+
+Ans. (a) Yes
+
+*******************************************************************************************
