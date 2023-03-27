@@ -1,0 +1,21 @@
+Q1. Inorder Prorder Postorder
+
+The inorder and preorder traversal of a binary tree are
+   Inorder:   d b e a p q r
+   PreOrder:  a b d e q p r 
+The postorder traversal of the binary tree is:
+ (A) d e b p r q a
+ (B) e d b r p q a
+ (C) e d b p r q a
+ (D) d e p r b q a
+ 
+Options
+This problem has only one correct answer
+(a) A
+(b) B
+(c) C
+(d) D
+
+Ans. (a) A
+
+********************************************************************************
