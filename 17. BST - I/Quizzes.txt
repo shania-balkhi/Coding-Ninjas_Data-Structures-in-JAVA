@@ -11,3 +11,23 @@ This problem has only one correct answer
 Ans. (a) Yes
 
 *******************************************************************************************
+
+Q2. BST Time Complexity
+
+The run time for traversing all the nodes of a binary search tree with n nodes and printing them in an order is
+a)  O(nlg(n))
+b)  O(n)
+c)  O(√n)
+d)  O(log(n))
+
+Options
+This problem has only one correct answer
+(a) a
+(b) b
+(c) c
+(d) d
+
+Ans. (b) b
+
+*******************************************************************************************
+
