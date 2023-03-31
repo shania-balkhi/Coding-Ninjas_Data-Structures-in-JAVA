@@ -31,3 +31,23 @@ Ans. (b) b
 
 *******************************************************************************************
 
+Q3. Traversal In BST
+
+Which type of traversal of binary search tree outputs the value in sorted order ?
+a)  Pre-order
+b)  In-order
+c)  Post-order
+d)  None
+
+Options
+This problem has only one correct answer
+a
+b
+c
+d
+
+Ans. b
+
+*******************************************************************************************
+
+
