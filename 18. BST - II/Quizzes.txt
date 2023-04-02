@@ -1,0 +1,16 @@
+MCQs 
+
+Q1. BST
+
+Which of the following is false about a binary search tree?(All are unique elements)
+
+Options
+This problem has only one correct answer
+The parent is always greater than the left child.
+The parent is always smaller than the right child.
+The left and right sub-trees should also be BST.
+The largest element is present at the root of the tree.
+
+Ans. The largest element is present at the root of the tree.
+
+***************************************************************************************************
