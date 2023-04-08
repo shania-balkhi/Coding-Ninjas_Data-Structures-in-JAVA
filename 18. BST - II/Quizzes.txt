@@ -14,3 +14,18 @@ The largest element is present at the root of the tree.
 Ans. The largest element is present at the root of the tree.
 
 ***************************************************************************************************
+
+Q2. Time Complexity
+
+What is the worst case and average case time complexity of searching a node in a BST?
+
+Options
+This problem has only one correct answer
+O(n) and O(nlog(n))
+O(n) and O(log(n))
+O(log(n)) and O(log(n))
+O(log(n)) and O(n)
+
+Ans. O(n) and O(log(n))
+
+***************************************************************************************************
