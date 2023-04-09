@@ -29,3 +29,19 @@ O(log(n)) and O(n)
 Ans. O(n) and O(log(n))
 
 ***************************************************************************************************
+
+Q3. Height Of BST
+
+What is the minimum height of a Binary search tree with 14 nodes?
+
+Options
+This problem has only one correct answer
+3
+4
+5
+6
+
+Ans. 4
+
+***************************************************************************************************
+
