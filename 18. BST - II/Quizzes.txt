@@ -45,3 +45,13 @@ Ans. 4
 
 ***************************************************************************************************
 
+Q4. Height Of BST -2
+
+You are given with the nodes of a binary search tree . Find the height of the BST.
+15 , 10 , 5 , 9 , 18 , 29 , 3 , 2.
+(Starting from an empty tree , insert 15(root of the tree) and then insert 10 and so on.)
+Height of tree with single node is 1.
+
+Ans. 5
+
+***************************************************************************************************
