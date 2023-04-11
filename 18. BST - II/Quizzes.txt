@@ -55,3 +55,20 @@ Height of tree with single node is 1.
 Ans. 5
 
 ***************************************************************************************************
+
+Q5. Insertion In BST
+
+Which one of the following is the tightest upper bound that represents the time complexity of inserting an object into a binary search tree of n nodes?
+
+Options
+This problem may have one or more correct answers
+O(1)
+O(log n)
+O(n) 
+O(n log n)
+
+Ans. O(n)
+
+***************************************************************************************************
+
+
