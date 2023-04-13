@@ -71,4 +71,18 @@ Ans. O(n)
 
 ***************************************************************************************************
 
+Q6. Deleting A Node
 
+Which node can be used to replace the deleted node of a BST? (The deleted node has both left and right child)
+
+Options
+This problem may have one or more correct answers
+Inorder successor 
+Preorder successor
+Postorder successor
+Inorder predecessor 
+
+Ans. Inorder successor 
+     Inorder predecessor 
+
+***************************************************************************************************
