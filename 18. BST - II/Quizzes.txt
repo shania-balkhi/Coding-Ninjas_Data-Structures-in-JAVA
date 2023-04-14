@@ -86,3 +86,18 @@ Ans. Inorder successor
      Inorder predecessor 
 
 ***************************************************************************************************
+
+Q7. Insertion/Deletion In BST
+
+What are the worst-case complexities of insertion and deletion of a key in a binary search tree?
+
+Options
+This problem may have one or more correct answers
+θ (log(n)) for both insertion and deletion
+θ (n) for both insertion and deletion 
+θ (n) for insertion and θ (log ) n for deletion
+θ (log (n)) for insertion and θ (n) for deletion
+
+Ans. θ (n) for both insertion and deletion 
+
+***************************************************************************************************
