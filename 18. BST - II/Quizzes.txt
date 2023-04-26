@@ -101,3 +101,5 @@ This problem may have one or more correct answers
 Ans. θ (n) for both insertion and deletion 
 
 ***************************************************************************************************
+
+Q8. 
