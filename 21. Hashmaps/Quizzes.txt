@@ -1,0 +1,16 @@
+MCQs
+
+Q1. Time complexity
+
+What is the time complexity of insertion , deletion and searching in case of Hashmaps using BSTs?
+
+Options
+This problem has only one correct answer
+O(n)
+O(n^2)
+O(logn)
+O(nlogn)
+
+Ans. O(logn)
+
+*****************************************************************************************************
