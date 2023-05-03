@@ -14,3 +14,18 @@ O(nlogn)
 Ans. O(logn)
 
 *****************************************************************************************************
+
+Q2. Return type
+
+What is the return type of containsKey() function in Hashmap?
+
+Options
+This problem has only one correct answer
+int
+String
+Boolean
+Same as that of key
+
+Ans. Boolean
+
+*****************************************************************************************************
