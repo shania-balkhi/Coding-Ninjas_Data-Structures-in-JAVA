@@ -29,3 +29,18 @@ Same as that of key
 Ans. Boolean
 
 *****************************************************************************************************
+
+Q3. Hashmap function
+
+Which function is used to insert a new key and value into the hashmap?
+
+Options
+This problem has only one correct answer
+get function
+put function
+insert function
+push function
+
+Ans. put function
+
+*****************************************************************************************************
