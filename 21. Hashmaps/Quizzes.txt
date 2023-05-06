@@ -64,3 +64,21 @@ Ans. 1 and 2
 
 *****************************************************************************************************
 
+Q5. Hash function
+
+What would the hash function return for the String "amit", if the hash code returns the sum of ASCII's and compression
+function gives the remainder when divided by 26?
+
+Options
+This problem has only one correct answer
+11
+15
+5
+19
+
+Ans. 11
+
+Solution Description
+The sum of ASCII of amit is 427. And 427% 26 is 11.
+
+*****************************************************************************************************
