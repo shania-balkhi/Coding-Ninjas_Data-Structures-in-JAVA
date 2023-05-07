@@ -82,3 +82,18 @@ Solution Description
 The sum of ASCII of amit is 427. And 427% 26 is 11.
 
 *****************************************************************************************************
+
+Q6. Hashing
+
+When we make each cell of our bucket array point to a linked list , it is known as _____ ?
+
+Options
+This problem has only one correct answer
+open hashing
+compression
+separate chaining
+
+Ans. separate chaining
+
+*****************************************************************************************************
+
