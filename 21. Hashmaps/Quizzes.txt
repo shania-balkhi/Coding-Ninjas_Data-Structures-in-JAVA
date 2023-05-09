@@ -97,3 +97,18 @@ Ans. separate chaining
 
 *****************************************************************************************************
 
+Q7. Hashing
+
+In which of the following collision handling methods we have a risk of filling up the bucket array and running out of 
+space to store more keys and values ?
+
+Options
+This problem has only one correct answer
+Separate chaining
+open hashing
+
+Ans. open hashing
+
+*****************************************************************************************************
+
+
