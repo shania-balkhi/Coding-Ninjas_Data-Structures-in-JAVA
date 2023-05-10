@@ -111,4 +111,19 @@ Ans. open hashing
 
 *****************************************************************************************************
 
+Q8. Load factor
+
+What is the default value of load factor in Hashmaps?
+
+Options
+This problem has only one correct answer
+0.7
+0.75
+0.8
+
+Ans. 0.75
+
+*****************************************************************************************************
+
+
 
