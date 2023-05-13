@@ -125,5 +125,20 @@ Ans. 0.75
 
 *****************************************************************************************************
 
+Q9. Time complexity
+
+What is the time complexity of inserting a key and value into a hashmap?
+
+Options
+This problem has only one correct answer
+O(1)
+O(n)
+O(logn)
+
+Ans. O(1)
+
+*****************************************************************************************************
+
+
 
 
