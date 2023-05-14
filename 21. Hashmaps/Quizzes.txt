@@ -139,6 +139,22 @@ Ans. O(1)
 
 *****************************************************************************************************
 
+Q10. Rehashing
+
+If we perform rehashing when load factor is greater than 0.7, and the bucket size is 12 . For what value of size would we perform rehashing?
+
+Options
+This problem has only one correct answer
+7
+8
+9
+10
+
+Ans. 9
+
+*****************************************************************************************************
+
+
 
 
 
