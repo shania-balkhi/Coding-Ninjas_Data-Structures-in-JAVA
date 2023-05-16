@@ -20,3 +20,19 @@ A B C D
 Ans. C A D B
 
 *****************************************************************************************************************************************
+
+Q2. Implementation of PQ
+
+With which data structure can a priority queue be implemented?
+
+Options
+This problem has only one correct answer
+Arrays
+Linked list
+Trees
+Hashmap
+All of the above
+
+Ans. All of the above
+
+*****************************************************************************************************************************************
