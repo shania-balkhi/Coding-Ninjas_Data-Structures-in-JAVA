@@ -36,3 +36,22 @@ All of the above
 Ans. All of the above
 
 *****************************************************************************************************************************************
+
+Q3. Time complexity
+
+Match the following time complexities to implement insertion into a Priority Queue using the following methods.
+1. Arrays (sorted)               A. O(logn)
+2. Linked List(unsorted)         B. O(n)
+3. Balanced BST                  C. O(1)
+
+Options
+This problem has only one correct answer
+1->B 2->A 3->C
+2->A 1->B 3->C
+1->C 2->B 3->A
+1->B 2->C 3->A
+
+Ans. 1->B 2->C 3->A
+
+*****************************************************************************************************************************************
+
