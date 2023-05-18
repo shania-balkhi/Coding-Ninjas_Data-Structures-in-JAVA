@@ -1,6 +1,6 @@
 MCQs 
 
-Passengers list
+Q1. Passengers list
 Send Feedback
 Given is a waiting list of IRCTC , based on the booking date (early booking means more priority ). 
 Arrange the following passenger in order of their ticket confirmation. ( The passenger who gets the ticket first, comes first).
@@ -54,4 +54,21 @@ This problem has only one correct answer
 Ans. 1->B 2->C 3->A
 
 *****************************************************************************************************************************************
+
+Q4. Heap
+
+What is the minimum number of elements in a heap of level 4?
+(The root of the tree is at level 0.)
+
+Options
+This problem has only one correct answer
+20
+31
+16
+15
+
+Ans. 16
+
+*****************************************************************************************************************************************
+
 
