@@ -115,6 +115,21 @@ Ans. False
 
 *****************************************************************************************************************************************
 
+Q9. Min Heap
+
+The topmost element of min heap stores :
+
+Options
+This problem has only one correct answer
+Maximum value node
+Minimum value node
+None of the above
+
+Ans. Minimum value node
+
+*****************************************************************************************************************************************
+
+
 
 
 
