@@ -145,6 +145,24 @@ Ans. 40, 35, 20, 10, 30, 16, 17, 8, 4, 15
 
 *****************************************************************************************************************************************
 
+Q11. Insertion In PQ-MaxHeap
+
+A Priority-Queue is implemented as a Max-Heap. Initially, it has 5 elements. The level-order traversal of the heap is given below:
+10, 8, 5, 3, 2 Two new elements ”1‘ and ”7‘ are inserted in the heap in that order. The level-order traversal of the heap after 
+the insertion of the elements is:
+
+Options
+This problem may have one or more correct answers
+10, 8, 7, 5, 3, 2, 1
+10, 8, 7, 2, 3, 1, 5
+10, 8, 7, 1, 2, 3, 5
+10, 8, 7, 3, 2, 1, 5
+
+Ans. 10, 8, 7, 3, 2, 1, 5
+
+*****************************************************************************************************************************************
+
+
 
 
 
