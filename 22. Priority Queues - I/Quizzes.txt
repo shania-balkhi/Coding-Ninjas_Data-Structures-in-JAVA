@@ -162,6 +162,24 @@ Ans. 10, 8, 7, 3, 2, 1, 5
 
 *****************************************************************************************************************************************
 
+Q12. Re-heap After Removal
+
+An operator delete(i) for a binary heap data structure is to be designed to delete the item in the i-th node. 
+Assume that the heap is implemented in an array and i refers to the i-th index of the array. If the heap tree has
+depth d (number of edges on the path from the root to the farthest leaf), then what is the time complexity to re-fix
+the heap efficiently after the removal of the element?
+
+Options
+This problem may have one or more correct answers
+O(1)
+O(d) but not O(1) 
+O(2^d ) but not O(d)
+O(d*(2^d) ) but not O(2^d )
+
+Ans. O(d) but not O(1) 
+
+*****************************************************************************************************************************************
+
 
 
 
