@@ -1,0 +1,16 @@
+MCQs
+
+Q1. Time complexity
+
+What is the time complexity of heap sort ?
+
+Options
+This problem has only one correct answer
+O(n)
+O(logn)
+O(nlogn)
+O(n^2)
+
+Ans. O(nlogn)
+
+******************************************************************************************************************
