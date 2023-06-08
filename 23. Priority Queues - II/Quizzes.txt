@@ -14,3 +14,19 @@ O(n^2)
 Ans. O(nlogn)
 
 ******************************************************************************************************************
+
+Q2. Space complexity
+
+What is the space complexity of in-place heap sort?
+
+Options
+This problem has only one correct answer
+O(n)
+O(1)
+O(logn)
+O(nlogn)
+
+Ans. O(1)
+
+******************************************************************************************************************
+
