@@ -30,3 +30,17 @@ Ans. O(1)
 
 ******************************************************************************************************************
 
+Q3. Time complexity
+
+What is the time complexity of heapify and building a heap?
+
+Options
+This problem has only one correct answer
+O(n) and O(n)
+O(n) and O(logn)
+O(logn) and O(logn)
+O(logn) and O(n)
+
+Ans. O(logn) and O(n)
+
+******************************************************************************************************************
